@@ -1,1 +1,0 @@
-const t=window.wpforms||!1;t&&jQuery(document).ready(o=>{n(),o(".wpforms-payment-price").on("change",function(){n()}),o(".wpforms-payment-price").on("input",function(){n()})});function n(){window.gposDispatchAmount({amount:t.amountTotalCalc(),currency:"TRY"})}

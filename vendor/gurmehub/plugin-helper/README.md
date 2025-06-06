@@ -1,3 +1,0 @@
-# Plugin Helper
-
-Nedir örnekler
