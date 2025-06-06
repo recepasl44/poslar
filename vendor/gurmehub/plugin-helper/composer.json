@@ -1,0 +1,20 @@
+{
+    "name": "gurmehub/plugin-helper",
+    "description": "GurmeHub ",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "analytics",
+        "wordpress",
+        "plugin",
+        "theme"
+      ],
+    "autoload": {
+        "psr-4": {
+            "GurmeHub\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    }
+}

@@ -1,0 +1,140 @@
+li.gpos-upgrade-pro {
+  background-color: #f0a500;
+  height: 32px;
+  line-height: 1.4;
+}
+
+li.gpos-upgrade-pro img {
+  width: 16px;
+  height: 16px !important;
+}
+
+li.gpos-upgrade-pro .new-tab {
+  margin-top: 2px;
+  margin-left: 6px;
+}
+
+li.gpos-upgrade-pro a {
+  color: #ffffff !important;
+  display: flex !important;
+  line-height: 22px !important;
+}
+
+/* Plugins sayfasında: etkinleştir ve ayarlar kısmında Proya yukselt ibaresi için stiller */
+a.upgrade-pro {
+  color: #f0a500;
+  font-weight: bold;
+}
+
+a.upgrade-pro:hover {
+  color: #f0a500;
+}
+
+/* Bitis / Plugins sayfası için yazılan stiller */
+
+#wpadminbar .gpos-test-mode-active > .ab-item {
+  margin: 0 2px;
+  color: #fff;
+  background-color: #ffba00;
+}
+
+#wpadminbar .gpos-test-mode-active:hover > a.ab-item {
+  background-color: #ffba00 !important;
+  color: #fff !important;
+}
+
+#wpadminbar .gpos-test-mode-active:hover .ab-label,
+#wpadminbar .gpos-test-mode-active:hover .ab-label {
+  background-color: #ffba00 !important;
+  color: #fff !important;
+}
+
+/* İşlemler tablosu için stiller*/
+.process-type {
+  padding: 8px 16px;
+  text-align: center;
+  text-transform: capitalize;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.transaction {
+  padding: 8px 16px;
+  text-align: center;
+  width: fit-content;
+  cursor: pointer;
+  text-align: start;
+  font-weight: bold;
+}
+
+.status-type {
+  font-size: 10px;
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 4px;
+  text-transform: capitalize;
+  width: fit-content;
+  cursor: pointer;
+  color: #777777;
+  background-color: #e5e5e5;
+}
+
+.status-type.gpos_completed {
+  color: #5b841b !important;
+  background-color: #c6e1c6 !important;
+}
+
+.status-type.gpos_started {
+  color: #94660c !important;
+  background-color: #f8dda7 !important;
+}
+
+.status-type.gpos_failed {
+  color: #761919 !important;
+  background-color: #eba3a3 !important;
+}
+
+.payment-plugin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.payment-plugin img {
+  width: 50px;
+}
+
+.payment-plugin img.ninja_forms {
+  border-radius: 10px;
+}
+
+.gpos-admin-order-action {
+  border: 0 !important;
+  width: 28px !important;
+}
+
+.gpos-admin-order-action img {
+  width: 28px !important;
+}
+
+.post-type-gpos_transaction th.column-installment {
+  width: 50px !important;
+}
+
+.working-requirements-settings-badge{
+  display: inline-block !important;
+	box-sizing: border-box !important;
+	margin: 1px 2px -1px 0 !important;
+	padding: 0 5px !important;
+	min-width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background-color: #d63638 !important;
+	color: #fff !important;
+	font-size: 11px !important;
+	line-height: 1.6 !important;
+	text-align: center !important;
+	z-index: 26 !important;
+}

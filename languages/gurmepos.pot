@@ -1,0 +1,5748 @@
+# Copyright (C) 2025 GurmeHub
+# This file is distributed under the same license as the POS Entegratör plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: POS Entegratör {{versiyon}}\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gurmepos\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-26T09:01:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: gurmepos\n"
+
+#. Plugin Name of the plugin
+msgid "POS Entegratör Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://posentegrator.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "POS Entegratör PRO eklentisi. 50+ banka/ödeme kuruluşu ve 10+ eklenti ile ödeme alın."
+msgstr ""
+
+#. Author of the plugin
+msgid "GurmeHub"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://gurmehub.com/"
+msgstr ""
+
+#. translators: Plugin names, Min version
+#: gurmepos-pro.php:197
+#: gurmepos-form.php:181
+msgid "<strong>%1$s</strong> is not working. The minimum lite version required for <strong>%2$s</strong> to work is <strong>%3$s</strong> please update the lite plugin."
+msgstr ""
+
+#: hooks/class-gpospro-edd.php:46
+#: hooks/class-gpospro-givewp.php:45
+#: extensions/ninjaforms/class-gposform-ninja-forms-card-field.php:55
+#: languages/gpos-checkout-texts.php:29
+msgid "Credit/Debit Card"
+msgstr ""
+
+#: hooks/class-gpospro-edd.php:98
+#: hooks/class-gpospro-givewp.php:78
+#: hooks/class-gpospro-latepoint.php:83
+#: hooks/class-gpospro-pmpro.php:131
+#: includes/plugin-gateways/class-gpospro-learn-press-payment-gateway.php:119
+#: includes/plugin-gateways/class-gpospro-travelerwp-payment-gateway.php:252
+#: views/the-events-calendar-admin-views.php:91
+#: includes/plugin-gateways/class-gpos-woocommerce-payment-gateway.php:292
+msgid "These payment method settings are made through the admin menu."
+msgstr ""
+
+#: hooks/class-gpospro-edd.php:99
+#: hooks/class-gpospro-givewp.php:79
+#: hooks/class-gpospro-latepoint.php:84
+#: hooks/class-gpospro-pmpro.php:132
+#: includes/plugin-gateways/class-gpospro-learn-press-payment-gateway.php:121
+#: views/the-events-calendar-admin-views.php:92
+#: includes/plugin-gateways/class-gpos-woocommerce-payment-gateway.php:293
+msgid "Click to go to settings."
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:36
+#: hooks/class-gpos-gph.php:36
+msgid "I couldn't find the payment gateway or integration I was looking for (Please share below)"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:40
+#: hooks/class-gpos-gph.php:40
+msgid "I'm already satisfied with my payment settings"
+msgstr ""
+
+#. translators: %s is the name of the plugin.
+#: hooks/class-gpospro-gph.php:45
+#: hooks/class-gpos-gph.php:45
+msgid "I need more information about %s"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:49
+#: hooks/class-gpos-gph.php:49
+msgid "Temporarily deactivating"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:53
+#: hooks/class-gpos-gph.php:53
+msgid "Didn't work as expected"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:57
+#: hooks/class-gpos-gph.php:57
+msgid "Other (Please share below)"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:72
+#: hooks/class-gpos-gph.php:72
+msgid "Skip & Deactive"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:73
+#: hooks/class-gpos-gph.php:73
+msgid "Deactive"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:74
+#: hooks/class-gpos-gph.php:74
+#: includes/class-gpos-post-operations.php:157
+#: includes/gpos-functions.php:354
+#: languages/gpos-settings-texts.php:209
+msgid "Cancel"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:75
+#: hooks/class-gpos-gph.php:75
+msgid "Why you are leaving us ?"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:76
+#: hooks/class-gpos-gph.php:76
+msgid "Comments (Optional)"
+msgstr ""
+
+#. translators: %s is the name of the plugin.
+#: hooks/class-gpospro-gph.php:78
+#: hooks/class-gpos-gph.php:78
+msgid "No thanks, i don't want the %s"
+msgstr ""
+
+#: hooks/class-gpospro-gph.php:79
+#: hooks/class-gpos-gph.php:79
+msgid "After a step, the plugin will be deactivated. Could you please take a moment and support us to make your app better?"
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:56
+msgid "Buy Now"
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:57
+#: hooks/class-gpospro-gurmepos.php:99
+msgid "Pay With Credit Card"
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:198
+msgctxt "Post type general name"
+msgid "Saved Cards"
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:199
+msgctxt "Post type singular name"
+msgid "Saved Card"
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:200
+msgctxt "Admin Menu text"
+msgid "Saved Cards"
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:201
+msgid "Saved Cards"
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:202
+msgid "Search Saved Card"
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:203
+#: languages/gpos-settings-texts.php:251
+msgid "No Saved Card found."
+msgstr ""
+
+#: hooks/class-gpospro-gurmepos.php:204
+msgid "No Saved Card found in Trash."
+msgstr ""
+
+#: hooks/class-gpospro-latepoint.php:112
+#: hooks/class-gpospro-latepoint.php:128
+#: views/saved-card-columns/type.php:14
+#: languages/gpos-settings-texts.php:184
+msgid "Credit Card"
+msgstr ""
+
+#: hooks/class-gpospro-latepoint.php:195
+#: includes/class-gpos-gateway-response.php:160
+msgid "Unknown error please contact admin"
+msgstr ""
+
+#: hooks/class-gpospro-learn-press.php:40
+msgid "Error while payment processing"
+msgstr ""
+
+#: hooks/class-gpospro-woocommerce.php:74
+msgid "Card has been deleted"
+msgstr ""
+
+#: hooks/class-gpospro-woocommerce.php:78
+msgid "Default card has been changed"
+msgstr ""
+
+#: hooks/class-gpospro-woocommerce.php:140
+msgid "Set Default"
+msgstr ""
+
+#: hooks/class-gpospro-woocommerce.php:150
+#: hooks/class-gpospro-woocommerce.php:164
+#: languages/gpos-settings-texts.php:250
+msgid "Delete"
+msgstr ""
+
+#: hooks/class-gpospro-woocommerce.php:170
+msgid "Default Card"
+msgstr ""
+
+#: includes/abstracts/est-v3/abstract-gpospro-est-v3-gateway.php:64
+#: includes/abstracts/pay-smart/abstract-gpospro-pay-smart-gateway.php:81
+#: includes/payment-gateways/akode/class-gpospro-akode-gateway.php:52
+#: includes/payment-gateways/craftgate/class-gpospro-craftgate-gateway.php:46
+#: includes/payment-gateways/esnekpos/class-gpospro-esnekpos-gateway.php:52
+#: includes/payment-gateways/isyerimpos/class-gpospro-isyerimpos-gateway.php:39
+#: includes/payment-gateways/lidio/class-gpospro-lidio-gateway.php:39
+#: includes/payment-gateways/moka/class-gpospro-moka-gateway.php:54
+#: includes/payment-gateways/ozan/class-gpospro-ozan-gateway.php:50
+#: includes/payment-gateways/param/class-gpospro-param-gateway.php:62
+#: includes/payment-gateways/paycell/class-gpospro-paycell-gateway.php:105
+#: includes/payment-gateways/paytr/class-gpospro-paytr-gateway.php:46
+#: includes/payment-gateways/rubikpara/class-gpospro-rubikpara-gateway.php:162
+#: includes/payment-gateways/united-payment/class-gpospro-united-payment-gateway.php:92
+#: includes/payment-gateways/weepay/class-gpospro-weepay-gateway.php:89
+#: includes/payment-gateways/wyld/class-gpospro-wyld-gateway.php:64
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:59
+#: includes/payment-gateways/iyzico/class-gpos-iyzico-gateway.php:61
+#: includes/payment-gateways/papara-checkout/class-gpos-papara-checkout-gateway.php:46
+#: includes/payment-gateways/papara/class-gpos-papara-gateway.php:87
+msgid "Connection Success"
+msgstr ""
+
+#: includes/abstracts/est-v3/abstract-gpospro-est-v3-gateway.php:64
+#: includes/payment-gateways/moka/class-gpospro-moka-gateway.php:54
+#: includes/payment-gateways/papara/class-gpos-papara-gateway.php:87
+msgid "Please check your API information."
+msgstr ""
+
+#: includes/class-gpospro-notifications.php:42
+#: includes/class-gpos-notifications.php:140
+msgid "Daily Transaction Notification"
+msgstr ""
+
+#: includes/class-gpospro-notifications.php:72
+#: includes/class-gpos-notifications.php:169
+msgid "Weekly Transaction Notification"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:65
+msgid "Card Name"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:66
+#: languages/gpos-checkout-texts.php:20
+#: languages/gpos-settings-texts.php:175
+msgid "Card Number"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:67
+msgid "Expiry"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:68
+#: languages/gpos-settings-texts.php:178
+msgid "Card Family"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:69
+#: includes/class-gposform-google-sheet-sync.php:247
+#: includes/class-gpos-export.php:77
+#: includes/class-gpos-post-tables.php:74
+#: languages/gpos-settings-texts.php:95
+#: views/emails/error.php:121
+#: views/emails/success.php:105
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:70
+#: languages/gpos-settings-texts.php:177
+msgid "Card Brand"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:71
+#: languages/gpos-settings-texts.php:176
+msgid "Card Type"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:72
+#: languages/gpos-settings-texts.php:181
+msgid "Bank Name"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:73
+#: includes/class-gposform-google-sheet-sync.php:240
+#: includes/class-gposform-google-sheet-sync.php:265
+#: templates/collection-receipt.php:13
+#: includes/gpos-functions.php:533
+#: includes/payment-gateways/pro/class-gpos-united-payment.php:71
+#: languages/gpos-settings-texts.php:149
+#: languages/gpos-settings-texts.php:243
+msgid "E-Mail"
+msgstr ""
+
+#: includes/class-gpospro-post-tables.php:74
+#: includes/class-gposform-google-sheet-sync.php:236
+#: includes/class-gposform-google-sheet-sync.php:260
+#: templates/collection-receipt.php:66
+#: includes/class-gpos-export.php:68
+#: includes/class-gpos-post-tables.php:82
+#: languages/gpos-settings-texts.php:92
+msgid "Date"
+msgstr ""
+
+#. translators: %s: Saved card ending.
+#: includes/class-gpospro-saved-card.php:243
+msgid "Saved card with ending %s"
+msgstr ""
+
+#. translators: IP address.
+#: includes/payment-gateways/craftgate/class-gpospro-craftgate-gateway.php:167
+msgid "Unauthorized operation attempted via ip address %s."
+msgstr ""
+
+#: includes/payment-gateways/craftgate/class-gpospro-craftgate-gateway.php:188
+msgid "3D PAY usage detected. Please contanct with GurmeHub."
+msgstr ""
+
+#: includes/payment-gateways/craftgate/class-gpospro-craftgate-gateway.php:292
+msgid "Error decoding Craftgate response, please contact admin."
+msgstr ""
+
+#: includes/payment-gateways/mollie/class-gpospro-mollie-gateway.php:78
+msgid "Expired"
+msgstr ""
+
+#: includes/payment-gateways/united-payment/class-gpospro-united-payment-gateway.php:92
+#: includes/payment-gateways/weepay/class-gpospro-weepay-gateway.php:89
+#: includes/payment-gateways/papara-checkout/class-gpos-papara-checkout-gateway.php:46
+msgid "Connection Failed"
+msgstr ""
+
+#: includes/payment-gateways/worldpay/class-gpospro-worldpay-gateway.php:173
+msgid "Your transaction was not completed, please try again."
+msgstr ""
+
+#: includes/payment-gateways/wyld/class-gpospro-wyld-gateway.php:179
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:238
+msgid "No confirmed transactions were found in the transaction list."
+msgstr ""
+
+#: includes/payment-gateways/wyld/class-gpospro-wyld-gateway.php:299
+msgid "Token error."
+msgstr ""
+
+#: includes/payment-gateways/wyld/class-gpospro-wyld-gateway.php:358
+msgid "Unsupported currency"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-givewp-payment-gateway.php:208
+#: includes/plugin-gateways/class-gpos-givewp-v3-payment-gateway.php:281
+msgid "Donation"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-latepoint-payment-gateway.php:102
+msgid "Appointment"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: includes/plugin-gateways/class-gpospro-learn-press-payment-gateway.php:72
+#: includes/plugin-gateways/class-gpospro-learn-press-payment-gateway.php:79
+#: includes/plugin-gateways/class-gpospro-travelerwp-payment-gateway.php:332
+#: includes/plugin-gateways/class-gpos-woocommerce-payment-gateway.php:39
+msgid "POS Entegratör"
+msgstr ""
+
+#. translators: %s = POS Entegratör
+#: includes/plugin-gateways/class-gpospro-learn-press-payment-gateway.php:74
+#: includes/plugin-gateways/class-gpos-woocommerce-payment-gateway.php:41
+msgid "%s - Multiple payment solutions"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-learn-press-payment-gateway.php:110
+#: includes/plugin-gateways/class-gpospro-learn-press-payment-gateway.php:113
+msgid "Enable"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-the-events-calendar-payment-gateway.php:90
+msgid "Currency not supported"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-the-events-calendar-payment-gateway.php:113
+msgid "Accept Pay with 40+ Payment Provider"
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: includes/plugin-gateways/class-gpospro-the-events-calendar-payment-gateway.php:169
+msgid "%s doesn't support your selected currency"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-the-events-calendar-payment-gateway.php:170
+msgid "Please show support currency list"
+msgstr ""
+
+#. translators: % s => Ödeme geçidi başarılı mesajı .
+#: includes/plugin-gateways/class-gpospro-the-events-calendar-payment-gateway.php:195
+msgid "Payment is success, transaction id: %s"
+msgstr ""
+
+#. translators: %s => Ödeme geçidi hata mesajı.
+#: includes/plugin-gateways/class-gpospro-the-events-calendar-payment-gateway.php:199
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:337
+#: includes/plugin-gateways/class-gposform-wpforms-payment-gateway.php:137
+msgid "Error while payment processing: %s"
+msgstr ""
+
+#. translators: ticket number
+#: includes/plugin-gateways/class-gpospro-the-events-calendar-payment-gateway.php:314
+msgid "Ticket id: %s "
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-travelerwp-payment-gateway.php:247
+msgid "Detail"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-woocommerce-payment-gateway.php:64
+msgid "The default payment gateway does not support adding cards, Please contact admin."
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-woocommerce-payment-gateway.php:143
+msgid "This payment gateway does not support Woo refund option. Beacause this payment provider is need line based refund process."
+msgstr ""
+
+#: includes/plugin-gateways/class-gpospro-woocommerce-payment-gateway.php:183
+msgid "Payment not be received because the card to receive payment not be found."
+msgstr ""
+
+#: views/emails/transaction-info.php:26
+#: views/emails/transaction-info.php:117
+#: includes/class-gposform-google-sheet-sync.php:245
+#: includes/class-gposform-google-sheet-sync.php:284
+#: templates/collection-receipt.php:82
+#: includes/class-gpos-export.php:74
+#: includes/class-gpos-post-tables.php:76
+#: languages/gpos-checkout-texts.php:12
+#: languages/gpos-settings-texts.php:304
+#: views/emails/error.php:97
+#: views/emails/success.php:89
+#: views/installments/multi.php:19
+msgid "Total"
+msgstr ""
+
+#: views/emails/transaction-info.php:31
+#: languages/gpos-settings-texts.php:31
+#: languages/gpos-settings-texts.php:165
+msgid "Completed"
+msgstr ""
+
+#: views/emails/transaction-info.php:36
+#: views/emails/transaction-info.php:146
+msgid "Canceled/Refunded"
+msgstr ""
+
+#: views/emails/transaction-info.php:41
+#: languages/gpos-settings-texts.php:164
+msgid "Failed"
+msgstr ""
+
+#: views/emails/transaction-info.php:173
+msgid "Daily"
+msgstr ""
+
+#: views/emails/transaction-info.php:173
+msgid "Weekly"
+msgstr ""
+
+#: views/emails/transaction-info.php:173
+#: languages/gpos-settings-texts.php:302
+msgid "Transaction Statuses"
+msgstr ""
+
+#: views/emails/transaction-info.php:180
+msgid "Today"
+msgstr ""
+
+#: views/emails/transaction-info.php:180
+msgid "This Week"
+msgstr ""
+
+#: views/emails/transaction-info.php:181
+msgid "Yesterday"
+msgstr ""
+
+#: views/emails/transaction-info.php:181
+msgid "Last Week"
+msgstr ""
+
+#: views/emails/transaction-info.php:196
+msgid "Payment Gateway Transaction Counts"
+msgstr ""
+
+#. translators: %s: Saat farkı için kullanılan saat örn. 10 Dakika Önce
+#: views/saved-card-columns/create-date.php:20
+#: includes/abstracts/abstract-gpos-post.php:198
+#: views/transaction-columns/create-date.php:20
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: views/saved-card-columns/create-date.php:24
+#: includes/abstracts/abstract-gpos-post.php:202
+#: views/transaction-columns/create-date.php:24
+msgid "j F Y"
+msgstr ""
+
+#: views/saved-card-columns/type.php:14
+#: languages/gpos-settings-texts.php:185
+msgid "Debit Card"
+msgstr ""
+
+#. translators: %s plugin name.
+#: views/the-events-calendar-admin-views.php:66
+msgid "Accept online payments with %s"
+msgstr ""
+
+#. translators: %s plugin name.
+#: views/the-events-calendar-admin-views.php:79
+msgid "Start selling tickets to your events today with %s. Attendees can purchase tickets directly on your site using debit or credit cards"
+msgstr ""
+
+#: views/the-events-calendar-admin-views.php:89
+msgid "Configure"
+msgstr ""
+
+#: views/the-events-calendar-admin-views.php:102
+msgid "More than 25 banks and payment institutions"
+msgstr ""
+
+#: views/the-events-calendar-admin-views.php:105
+#: languages/gpos-settings-texts.php:314
+msgid "Card save feature"
+msgstr ""
+
+#: views/the-events-calendar-admin-views.php:108
+msgid "Supports 3Ds payments"
+msgstr ""
+
+#: views/the-events-calendar-admin-views.php:111
+msgid "Accept payments from around the world"
+msgstr ""
+
+#: views/the-events-calendar-admin-views.php:114
+#: languages/gpos-settings-texts.php:315
+msgid "Gate (payment redirection) feature"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "POS Entegratör Business"
+msgstr ""
+
+#. Description of the plugin
+msgid "Gurmehub tüm banka ve ödeme kuruluşları destekli özelleştirilebilir POS eklentisi. Forma ve bağımsız ödeme almanızı sağlayan paketi."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gurmehub"
+msgstr ""
+
+#. translators: %s POS Entegratör
+#: extensions/elementor-pro/class-gposform-payment-action.php:64
+msgid "Don't forget to add %s form field to current form."
+msgstr ""
+
+#: extensions/elementor-pro/class-gposform-payment-field.php:48
+#: extensions/elementor-pro/class-gposform-payment-field.php:138
+#: extensions/elementor/class-gposform-payment-widget.php:160
+msgid "Amount"
+msgstr ""
+
+#: extensions/elementor-pro/class-gposform-payment-field.php:117
+#: extensions/elementor/class-gposform-payment-widget.php:170
+#: includes/class-gposform-google-sheet-sync.php:246
+#: includes/class-gposform-google-sheet-sync.php:268
+#: includes/class-gpos-export.php:75
+msgid "Currency"
+msgstr ""
+
+#. translators: %s POS Entegratör
+#: extensions/elementor-pro/class-gposform-payment-field.php:132
+msgid "Fields to be taken from the form. If left blank, the data field appears on the form and the user is prompted to enter the input."
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:118
+msgid "Form Information"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:126
+#: extensions/elementor/class-gposform-success-widget.php:121
+#: hooks/class-gposform-wpforms.php:132
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:116
+msgid "Transaction Description"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:128
+msgid "Description to be sent to payment institutions and appear in transactions."
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:135
+msgid "Price Field Name (Price, Total, Amount etc.)"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:143
+msgid "Button Text"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:152
+msgid "Payment Options"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:163
+msgid "Amount to be taken from the form. If left blank, the data field appears on the form and the user is prompted to enter the amount. Use \".\" (dot) for decimals."
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:189
+msgid "Default Customer Info"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:209
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:157
+msgid "Return Pages"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:217
+msgid "What to do in Success Processing?"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:220
+msgid "Show Success Message on Form Page"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:221
+#: extensions/elementor/class-gposform-payment-widget.php:230
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:198
+msgid "Redirect Page"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:236
+msgid "The page to redirect to when the checkout is complete. If left blank, it will return to the default successful page"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:245
+msgid "Pay Button"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:252
+msgid "Color"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:262
+msgid "Hover Color"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:273
+msgid "Text Color"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:284
+msgid "Text Hover Color"
+msgstr ""
+
+#: extensions/elementor/class-gposform-payment-widget.php:294
+msgid "Text"
+msgstr ""
+
+#: extensions/elementor/class-gposform-success-widget.php:65
+msgid "Başarılı İşlem Kutucuğu"
+msgstr ""
+
+#: extensions/elementor/class-gposform-success-widget.php:113
+msgid "Success Message Information"
+msgstr ""
+
+#: extensions/elementor/class-gposform-success-widget.php:124
+msgid "{payment_id} => Payment transaction number, {total} => Transaction Amount, {currency} => Currency, You can use variables in the text."
+msgstr ""
+
+#: extensions/elementor/class-gposform-transactions-widget.php:65
+#: includes/class-gpos-post-operations.php:105
+#: languages/gpos-settings-texts.php:381
+msgid "Transactions"
+msgstr ""
+
+#: extensions/elementor/class-gposform-transactions-widget.php:89
+msgid "Transactions Settings"
+msgstr ""
+
+#: extensions/elementor/class-gposform-transactions-widget.php:97
+msgid "Show only completed transactions"
+msgstr ""
+
+#: extensions/elementor/class-gposform-transactions-widget.php:106
+msgid "Users can print transactions"
+msgstr ""
+
+#: extensions/ninjaforms/class-gposform-ninja-forms-display-installment.php:55
+#: languages/gpos-settings-texts.php:428
+msgid "Installment Display"
+msgstr ""
+
+#: hooks/class-gposform-ninja-forms.php:46
+#: hooks/class-gposform-wpforms.php:53
+msgid "Turkish Lira"
+msgstr ""
+
+#: hooks/class-gposform-wpforms.php:120
+msgid "Enable Payments"
+msgstr ""
+
+#: hooks/class-gposform-wpforms.php:135
+msgid "{form_title} {entry_id}"
+msgstr ""
+
+#. translators: tags name
+#: hooks/class-gposform-wpforms.php:138
+msgid "Available tags: %s"
+msgstr ""
+
+#: hooks/class-gposform-wpforms.php:147
+msgid "To use the default data, you can add new hidden fields to the form and map them directly."
+msgstr ""
+
+#: hooks/class-gposform-wpforms.php:148
+msgid "Customer Info"
+msgstr ""
+
+#: hooks/class-gposform-wpforms.php:162
+msgid "— Select Input —"
+msgstr ""
+
+#: includes/class-gposform-collection-receipt.php:43
+msgid "You are not allowed to print this transaction."
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:237
+#: includes/class-gposform-google-sheet-sync.php:262
+#: includes/class-gpos-export.php:69
+msgid "Payment ID"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:238
+#: includes/class-gposform-google-sheet-sync.php:263
+#: includes/class-gpos-export.php:70
+msgid "Plugin Transaction ID"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:239
+#: includes/class-gposform-google-sheet-sync.php:264
+#: includes/class-gpos-export.php:71
+msgid "Customer Name"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:241
+#: includes/class-gposform-google-sheet-sync.php:266
+#: templates/collection-receipt.php:14
+#: includes/gpos-functions.php:532
+#: languages/gpos-settings-texts.php:156
+#: languages/gpos-settings-texts.php:242
+msgid "Phone"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:242
+#: languages/gpos-settings-texts.php:179
+msgid "Card Holder Name"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:243
+#: includes/class-gpos-export.php:72
+#: includes/class-gpos-post-tables.php:77
+#: languages/gpos-checkout-texts.php:16
+#: languages/gpos-settings-texts.php:22
+#: views/emails/error.php:105
+#: views/emails/success.php:97
+#: views/installments/multi.php:17
+msgid "Installment"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:244
+#: includes/class-gpos-export.php:73
+#: includes/class-gpos-post-tables.php:79
+#: languages/gpos-settings-texts.php:42
+msgid "Status"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:261
+#: includes/class-gposform-google-sheet-sync.php:281
+msgid "Transaction ID"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:267
+msgid "Refund Total"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:282
+msgid "Line Name"
+msgstr ""
+
+#: includes/class-gposform-google-sheet-sync.php:283
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-gposform-webhook.php:134
+msgid "First try"
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-elementor-payment-gateway.php:136
+msgid "Please wait redirecting to 3D security page"
+msgstr ""
+
+#. translators: %s => Ödeme geçidi benzersiz numarası.
+#: includes/plugin-gateways/class-gposform-elementor-payment-gateway.php:165
+#: includes/plugin-gateways/class-gposform-elementor-pro-payment-gateway.php:103
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:304
+#: includes/plugin-gateways/class-gposform-wpforms-payment-gateway.php:108
+msgid "Payment completed successfully.<br>Payment number: <strong>%s</strong>."
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-elementor-payment-gateway.php:182
+msgid "Redirecting please wait"
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-elementor-payment-gateway.php:263
+#: includes/plugin-gateways/class-gposform-elementor-pro-payment-gateway.php:189
+msgid "Elementor Form"
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:130
+msgid "Default Customer Data"
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:168
+msgid "Redirect Type"
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:273
+msgid "Lütfen bekleyiniz. 3D ödeme işlemi için yönlendiriliyorsunuz."
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:312
+msgid "Payment process completed.Redirecting plase wait"
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-ninja-forms-payment-gateway.php:386
+msgid "Ninja Form"
+msgstr ""
+
+#: includes/plugin-gateways/class-gposform-wpforms-payment-gateway.php:239
+msgid "WPForms Payment"
+msgstr ""
+
+#: templates/collection-receipt.php:12
+#: includes/gpos-functions.php:530
+msgid "Name"
+msgstr ""
+
+#: templates/collection-receipt.php:15
+#: includes/gpos-functions.php:534
+#: languages/gpos-settings-texts.php:150
+#: languages/gpos-settings-texts.php:244
+msgid "Address"
+msgstr ""
+
+#: templates/collection-receipt.php:16
+#: includes/gpos-functions.php:536
+#: languages/gpos-settings-texts.php:152
+#: languages/gpos-settings-texts.php:245
+msgid "State"
+msgstr ""
+
+#: templates/collection-receipt.php:17
+#: includes/gpos-functions.php:535
+#: languages/gpos-settings-texts.php:151
+#: languages/gpos-settings-texts.php:246
+msgid "City"
+msgstr ""
+
+#: templates/collection-receipt.php:80
+msgid "It is not an official document, it is produced for informational purposes only."
+msgstr ""
+
+#: templates/elementor/form.php:24
+msgid "Price"
+msgstr ""
+
+#: templates/elementor/form.php:39
+#: includes/abstracts/abstract-gpos-options.php:82
+#: includes/class-gpos-post-operations.php:156
+#: languages/gpos-settings-texts.php:169
+msgid "Payment"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://posentegrator.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "50+ ödeme kuruluşu, 10+ eklenti ile beraber çalışalabilen en gelişmiş ödeme eklentisi. Tüm ödeme alma süreçlerinizi yönetir, kusursuz çalışmasını sağlar. E-Ticaret Ödemeleri, Tek Sayfada Ödeme, Tekrarlı Ödemeler, Taksitli Ödemeler,Bağış Ödemeleri, Özel Tutarlı Ödemeler ve daha fazlası <strong>POS Entegratör</strong> ile çok kolay."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://gurmehub.com"
+msgstr ""
+
+#: hooks/class-gpos-woocommerce.php:69
+msgid "Order canceled from transaction page."
+msgstr ""
+
+#: hooks/class-gpos-woocommerce.php:79
+msgid "Order refunded from transaction page."
+msgstr ""
+
+#: hooks/class-gpos-wordpress.php:348
+#: includes/class-gpos-admin.php:75
+#: languages/gpos-settings-texts.php:233
+msgid "Settings"
+msgstr ""
+
+#: hooks/class-gpos-wordpress.php:355
+msgid "Upgrade"
+msgstr ""
+
+#: hooks/class-gpos-wordpress.php:394
+#: languages/gpos-settings-texts.php:128
+msgid "Docs"
+msgstr ""
+
+#: hooks/class-gpos-wordpress.php:399
+msgid "Community Form"
+msgstr ""
+
+#: hooks/class-gpos-wordpress.php:419
+msgid "Select Process Type"
+msgstr ""
+
+#. translators: %s: Ödeme geçidi ismi.
+#: includes/abstracts/abstract-gpos-gateway.php:205
+msgid "When you click on the payment button, you will be directed to the %s payment form."
+msgstr ""
+
+#: includes/abstracts/abstract-gpos-gateway.php:206
+msgid "Make your payment by entering your card information."
+msgstr ""
+
+#: includes/abstracts/abstract-gpos-gateway.php:207
+msgid "When the payment process is completed, the payment completed page is displayed."
+msgstr ""
+
+#: includes/abstracts/abstract-gpos-gateway.php:238
+msgid "Settings saved"
+msgstr ""
+
+#: includes/abstracts/abstract-gpos-options.php:81
+msgid "Debit/Credit Card"
+msgstr ""
+
+#: includes/abstracts/abstract-gpos-options.php:89
+#: languages/gpos-settings-texts.php:136
+msgid "Installment Options"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:408
+msgid "Contact your bank for manual approval"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:409
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:415
+msgid "Fake approval, contact your bank"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:410
+msgid "Invalid member merchant or service provider"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:411
+msgid "Confiscate the card"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:412
+msgid "Transaction not approved"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:413
+msgid "Error (Only record update responses found on the Virtual POS or bank side)"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:414
+msgid "Confiscate the card - Special reasons"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:416
+msgid "Installments are not applied to the bank card used in the transaction."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:417
+msgid "Fake approval (VIP), contact your bank"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:418
+msgid "Invalid transaction on the Virtual POS or bank side"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:419
+msgid "Virtual POS error: Invalid amount information"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:420
+msgid "Invalid account or card number specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:421
+msgid "No such bank (issuer) found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:422
+msgid "Virtual POS error: Try again"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:423
+msgid "Virtual POS error: Invalid/Incorrect amount"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:424
+msgid "Transaction cannot be performed on the Bank/Virtual POS side"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:425
+msgid "Virtual POS error: Record could not be created"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:426
+msgid "No transaction found on the Virtual POS side"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:427
+msgid "Virtual POS error: Bank rejected"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:428
+msgid "Virtual POS error: Original is denied"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:429
+msgid "Virtual POS error: Original not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:430
+msgid "Switch-based format error on the Virtual POS side"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:431
+msgid "General routing error on the Virtual POS side"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:432
+msgid "The specified credit card has expired"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:433
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:449
+msgid "Suspicion of fraud in the transaction"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:434
+msgid "Virtual POS error: Restricted card"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:435
+msgid "Virtual POS error: Bank (Issuer) is recalling the card"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:436
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:454
+msgid "Virtual POS error: Exceeded allowed PIN attempts"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:437
+msgid "Virtual POS error: Refund cannot be processed before the end of the day"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:438
+msgid "Virtual POS error: Lost card, confiscate the card"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:439
+msgid "Virtual POS error: Stolen card, confiscate the card"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:440
+msgid "Refunds are not supported in transactions where points are used. Please contact your bank."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:441
+msgid "The limit of the specified credit card is not sufficient for this transaction"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:442
+msgid "Virtual POS error: Checking account not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:443
+msgid "Virtual POS error: Savings account not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:444
+msgid "Card has expired"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:445
+msgid "Virtual POS error: Incorrect/Invalid PIN value"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:446
+msgid "Virtual POS error: Card information not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:447
+msgid "The cardholder is not authorized for this transaction"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:448
+msgid "The terminal is not authorized for this transaction"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:450
+msgid "Virtual POS error: Exceeded expected transaction amount limit"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:451
+msgid "The specified credit card is restricted"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:452
+msgid "Security violation on the Virtual POS side"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:453
+msgid "Virtual POS error: Exceeded expected transaction limit"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:455
+msgid "Virtual POS key synchronization error"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:456
+msgid "Virtual POS error: Invalid/Inconsistent information sent"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:457
+msgid "Invalid date information"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:458
+msgid "Virtual POS encryption error"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:459
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:461
+msgid "Invalid/Incorrect CVV value"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:460
+msgid "PIN value cannot be verified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:462
+msgid "Rejected on the Virtual POS side (General)"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:463
+msgid "Not verified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:464
+msgid "The bank/Virtual POS cannot process transactions at the moment"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:465
+msgid "Technical cancellation due to timeout"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:466
+msgid "Your card is closed to e-commerce transactions. Call your bank."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:467
+msgid "General error on the Virtual POS side"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:468
+msgid "Multiple reversal (Duplicate reversal)"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:469
+msgid "Please try again, contact your bank if the problem persists."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:470
+msgid "Card is on the blacklist"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:471
+msgid "Check the HOSTMSG field in the Virtual POS response for details."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:472
+msgid "Virtual POS error: This terminal is not authorized for foreign cards."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:473
+msgid "This transaction has been rejected by Threat Metrix (TMX). Please check the transaction logs and TMX portal records for details."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:474
+msgid "3D transaction did not complete successfully."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:475
+msgid "This request has been rejected by fraud rules."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:476
+msgid "No response received from the bank."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:477
+msgid "One of the required parameters in the request is missing"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:478
+msgid "The same parameter has been sent more than once"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:479
+msgid "The maximum size for this value has been exceeded."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:480
+msgid "Invalid data type specified for this value"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:481
+msgid "Invalid security algorithm specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:482
+msgid "Invalid member merchant information specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:483
+msgid "Invalid amount information specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:484
+msgid "Invalid currency specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:485
+msgid "Invalid language selection"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:486
+msgid "General error"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:487
+msgid "Invalid user information"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:488
+msgid "Empty parameter specified, check all parameters"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:489
+msgid "The total amount of the ordered products does not match the actual amount"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:490
+msgid "The payment amount does not match the calculated amount"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:491
+msgid "Invalid tax amount specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:492
+msgid "The tax amount must be zero for the specified condition"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:493
+msgid "Invalid integration model specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:494
+msgid "Invalid card information (TOKEN) specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:495
+msgid "The specified payment system (virtual POS) was not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:496
+msgid "The specified payment type (campaign) was not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:497
+msgid "The specified transaction was not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:498
+msgid "This transaction cannot be refunded"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:499
+msgid "Invalid refund amount specified or this transaction has already been refunded"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:500
+msgid "This transaction cannot be canceled"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:501
+msgid "The specified payment was not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:502
+msgid "No pre-authorization record found for this transaction"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:503
+msgid "Invalid final authorization (POSTAUTH) amount specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:504
+msgid "The specified Cardholder (Customer) is not registered"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:505
+msgid "The relevant payment is awaiting approval"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:506
+msgid "Invalid payment status specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:507
+msgid "Invalid sub-action (SUBACTION) specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:508
+msgid "The specified card has been added before"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:509
+msgid "The card has been previously deleted"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:510
+msgid "Invalid time range specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:511
+msgid "Invalid date format specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:512
+msgid "The specified card number is invalid"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:513
+msgid "The specified credit card expiration date is invalid"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:514
+msgid "The user does not have the authority to use API services"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:515
+msgid "A successful transaction already exists with this member merchant order number"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:516
+msgid "Invalid member merchant group number"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:517
+msgid "Invalid HASH value"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:518
+msgid "No payment system (virtual POS) definition. Please check."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:519
+msgid "Unsupported currency:"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:520
+msgid "The user is not authorized to process transactions on this member merchant"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:521
+msgid "The validity period of the payment is above the maximum limit."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:522
+msgid "The validity period of the payment is below the minimum limit."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:523
+msgid "Invalid API request specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:524
+msgid "Invalid card BIN information"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:525
+msgid "The card has been activated before"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:526
+msgid "The card has been deactivated before"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:527
+msgid "Invalid IP Address"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:528
+msgid "The specified card has not been activated yet."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:529
+msgid "This transaction can only be done with LetsBodrum card."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:530
+msgid "Please use LetsBodrum card or Turkey İş Bankası credit card."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:531
+msgid "The specified card number has been defined before."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:532
+msgid "The specified time information is invalid or inconsistent"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:533
+msgid "The specified period value is too high"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:534
+msgid "Invalid repeat pattern parameter"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:535
+msgid "Quartz timer error occurred"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:536
+msgid "The start date must be a future date"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:537
+msgid "Invalid recurring payment status parameter specified"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:538
+msgid "The recurring payment plan is already active"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:539
+msgid "ERR10073"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:540
+msgid "The recurring payment plan has already expired"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:541
+msgid "Invalid member merchant visual (logo) information"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:542
+msgid "Invalid recurring payment status parameter"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:543
+msgid "Transaction is locked"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:544
+msgid "This card is registered in the system."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:545
+msgid "Please provide the Member Merchant Order number or Payment Session (Token)"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:546
+msgid "Invalid transaction status"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:547
+msgid "The user does not have the authority for this transaction."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:548
+msgid "Invalid status"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:549
+msgid "The interest or discount rate must be zero"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:550
+msgid "The valid end date cannot be greater than the valid start date"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:551
+msgid "The valid end date must be greater than the current date"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:552
+msgid "There is already a payment type with installment number for this payment system"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:553
+msgid "Installment information must be a value between 1 and 12."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:554
+msgid "The card for recurring payment cannot be deleted."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:555
+msgid "Transaction failed"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:556
+msgid "Transaction cannot be processed as the payment system is disabled. Please contact the Member Merchant Super Administrator."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:557
+msgid "Invalid offset value"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:558
+msgid "Invalid limit value"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:559
+msgid "No registered card found."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:560
+msgid "The card cannot be deleted due to registered recurring payment plans."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:561
+msgid "Invalid session information."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:562
+msgid "Terminated session information."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:563
+msgid "This session key is not authorized for the intended transaction."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:564
+msgid "This transaction belongs to another member merchant."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:565
+msgid "There are multiple successful transactions for this payment. Please use the PGTRANID parameter."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:566
+msgid "Invalid URL parameter specified."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:567
+msgid "Invalid BIN value specified."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:568
+msgid "Transaction request has been rejected due to suspected fraud reported by Inact RT service."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:569
+msgid "No available commission scheme found."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:570
+msgid "The current Payment System is not available in the pool"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:571
+msgid "Transaction amount has not been credited to the member merchant account, refund cannot be processed."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:572
+msgid "This payment has already been made, a new payment session cannot be created with the given Member Merchant Order Number."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:573
+msgid "Member merchant not approved"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:574
+msgid "The payment pool for the member merchant has not been approved yet."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:575
+msgid "The payment system used does not support campaign usage."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:576
+msgid "Point inquiry is not supported by the payment system."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:577
+msgid "Incorrect point format, please check the point usage format in the API Documentation."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:578
+msgid "The payment system used does not support point usage."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:579
+msgid "Unsupported number of installments specified by the member merchant."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:580
+msgid "This transaction cannot be performed with inactive member merchant information."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:581
+msgid "This order number has been used in a terminated session, please create a session key with a different order number."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:582
+msgid "One of the values ​​for the amount, currency, session type, URL return value, or intended transaction does not match with the existing session for the order number in the request."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:583
+msgid "Exceeding the limit in the integer or fractional part"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:584
+msgid "There is a recurring payment with this plan code"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:585
+msgid "Invalid recurring payment code"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:586
+msgid "The recurring payment in a terminated state cannot be updated."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:587
+msgid "Invalid transaction type"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:588
+msgid "At least one parameter must be passed for reconciliation inquiry."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:589
+msgid "Multiple transactions found."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:590
+msgid "The point parameter for the payment system is incorrect, the sent point parameter is not defined in the payment system to which the transaction will be sent."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:591
+msgid "Invalid parameter value"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:592
+msgid "Partial point usage is not supported by this payment system"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:593
+msgid "Transaction rejected due to suspected fraud. For detailed information, you can contact the support team. (TMX rejected)"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:594
+msgid "Commission expenses cannot exceed the sellers commission amount."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:595
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:650
+msgid "You do not have the authority to use marketplace parameters in the payment request. Please contact Paratika support line."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:596
+msgid "The requested transaction cannot be updated."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:597
+msgid "Payment system type or EFT code not found."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:598
+msgid "EXTRA parameter cannot be decoded."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:599
+msgid "Common payment page (HPP) cannot be used for this member merchant."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:600
+msgid "Query Campaign Not Supported By PaymentSystem"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:601
+msgid "An error occurred while processing the 3D transaction."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:602
+msgid "Member Merchant Integration Model Error"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:603
+msgid "Transaction type not supported by this payment system."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:604
+msgid "Unexpected payment system integration error"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:605
+msgid "Invalid redirect address"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:606
+msgid "PAID or CANCELED payment"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:607
+msgid "The member merchant is not authorized to process transactions with foreign bank cards"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:608
+msgid "Recurring payment not found."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:609
+msgid "Recurring payment card not found."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:610
+msgid "You do not have the authority to add a card without 3D verification. Please add a card using the HPP integration model or seek help from Paratika support team."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:611
+msgid "The recurring payment plan has already been added with this card."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:612
+msgid "Unsupported currency for this transaction"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:613
+msgid "Discount amount cannot be greater than the order amount."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:614
+msgid "Seller not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:615
+msgid "A seller exists with this ID."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:616
+msgid "Refund transaction has been rejected by Paratika Finance team"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:617
+msgid "Transaction failed due to 3D restriction."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:618
+msgid "Seller is in deactivated state. This transaction cannot be performed."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:619
+msgid "Unsupported Currency Conversion"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:620
+msgid "Activation date must be a future date"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:621
+msgid "Invalid default commission rate"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:622
+msgid "Invalid payment system-based commission rate"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:623
+msgid "Missing parameter"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:624
+msgid "Payment system not found in the pool"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:625
+msgid "All installments between 2 and 12 must be provided in the parameter"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:626
+msgid "Save card parameter cannot be used for API integration model"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:627
+msgid "No payment system supporting cardless transaction with this name found in the pool"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:628
+msgid "No commission scheme found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:629
+msgid "ERR10166"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:630
+msgid "Invalid sellerId - do not use semicolon"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:631
+msgid "This card brand is not supported"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:632
+msgid "Installment is not suitable for this card brand"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:633
+msgid "Entered value is out of valid range. Minimum value must be 1, for maximum value please contact Paratika Operations Team."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:634
+msgid "The specified MCC was not found."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:635
+msgid "The specified MCC has already been added"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:636
+msgid "The product commission amounts do not match the commission amount specified in the TOTALSELLERCOMMISSIONAMOUNT parameter."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:637
+msgid "The Member Merchant Product Type and Commission Obligation could not be correctly updated to use seller sales."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:638
+msgid "Wrong commission applier type."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:639
+msgid "Invalid Seller Payment Amount"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:640
+msgid "Invalid Marketplace Integration Model"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:641
+msgid "The total of the seller payment amounts of the payment items does not match the parameter TOTALSELLERPAYMENTAMOUNT."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:642
+msgid "The commission applier type, CA (commission amount), cannot be sent at the same time as the commission value."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:643
+msgid "Invalid card type for the type of investor you want to use"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:644
+msgid "Incorrect member merchant information in order items."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:645
+msgid "Order item not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:646
+msgid "Order items are only supported for primary transactions created with session token"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:647
+msgid "You need to specify the quantity or amount of the product"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:648
+msgid "Item quantity or amount exceeded"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:649
+msgid "Amount cannot be greater than the original request amount."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:651
+msgid "Payment date cannot be earlier than transaction date. Please check the request."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:652
+msgid "Invalid or Missing EXTRA parameter value"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:653
+msgid "Manufacturer card template is not supported by this payment system."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:654
+msgid "VKN and TCKN values ​​cannot be used together. Please use only one."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:655
+msgid "Please send ACCOUNTOWNERNAME and ACCOUNTOWNERLASTNAME only or COMMERCIALTITLE only."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:656
+msgid "Seller payment due date must be equal to or higher than the Member Merchant payment due date."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:657
+msgid "Please make sub-dealer definitions for Kuveyt Türk virtual pos."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:658
+msgid "No product found in seller transaction"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:659
+msgid "Payment date cannot be earlier than transaction date."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:660
+msgid "No application found with this email address and name."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:661
+msgid "There is an application with this name and email"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:662
+msgid "Incorrect phone number"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:663
+msgid "Incorrect web address"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:664
+msgid "Incorrect Common Application Format"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:665
+msgid "Incorrect member merchant application provided"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:666
+msgid "Incorrect Application Finance Data provided"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:667
+msgid "Invalid application document data supplied"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:668
+msgid "Incorrect Application Sales Support Data provided"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:669
+msgid "Invalid Application Risk Management Data supplied"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:670
+msgid "OTP code not found"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:671
+msgid "There is already a BIN Rule with the same name, please define a BIN Rule with a different name."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:672
+msgid "There is already a BIN Rule with the same configuration, please add a BIN Rule with different configurations."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:673
+msgid "BIN Rule installment number must consist of numbers"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:674
+msgid "Bin Rule installment number is out of valid range"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:675
+msgid "BIN rule not found with the given bin rule name"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:676
+msgid "Bin Rule minimum limit cannot be greater than the upper limit."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:677
+msgid "Entered value does not exceed the minimum length"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:678
+msgid "BKM error"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:679
+msgid "Application document is registered, please enter a document with a different name."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:680
+msgid "Application document name not found."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:681
+msgid "Maximum Application document number exceeded."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:682
+msgid "Invalid VKN."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:683
+msgid "Invalid IBAN TRY."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:684
+msgid "Payment session terminated by link"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:685
+msgid "A BIN Rule and Payment System Pool record with the same configuration already exists"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:686
+msgid "No BIN Rule and Payment System Pool record found with configuration"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:687
+msgid "ERR10224"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:688
+msgid "BIN cannot be both foreign and its country Turkey at the same time"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:689
+msgid "ERR10226"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:690
+msgid "You are not authorized to use CARDPANTYPE parameter as INSURANCE"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:691
+msgid "Incorrect CARDPAN format. CARDPAN should be in First8/Last4/TCKN-VKN-YKN format"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:692
+msgid "You cannot use NAMEONCARD, CARDEXPIRY, and CARDPANCVV parameters at the same time with CARDPANTYPE parameter"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:693
+msgid "You cannot use CARDTOKEN parameter at the same time with CARDPANTYPE parameter"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:694
+msgid "You cannot use SAVECARD parameter at the same time with CARDPANTYPE parameter"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:695
+msgid "No transaction can be made with a foreign card number"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:696
+msgid "Invalid email"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:697
+msgid "Shopping credit service is not supported by the payment system."
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:698
+msgid "Seller Payment Date Mismatch"
+msgstr ""
+
+#: includes/abstracts/payten-gateway/abstract-gpos-payten-gateway.php:699
+msgid "Maturity Date Mismatch"
+msgstr ""
+
+#: includes/class-gpos-admin.php:51
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-gpos-admin.php:70
+#: languages/gpos-settings-texts.php:140
+msgid "Payment Methods"
+msgstr ""
+
+#: includes/class-gpos-admin.php:127
+#: languages/gpos-settings-texts.php:106
+msgid "Upgrade Pro"
+msgstr ""
+
+#: includes/class-gpos-admin.php:173
+#: languages/gpos-checkout-texts.php:18
+#: languages/gpos-settings-texts.php:21
+msgid "Test Mode Active"
+msgstr ""
+
+#: includes/class-gpos-export.php:76
+#: includes/class-gpos-post-tables.php:80
+msgid "Refund Status"
+msgstr ""
+
+#: includes/class-gpos-notifications.php:71
+msgid "Error in payment process"
+msgstr ""
+
+#: includes/class-gpos-notifications.php:88
+msgid "New Payment Transaction"
+msgstr ""
+
+#. translators: %s = POS Entegratör Pro.
+#: includes/class-gpos-payment-gateways.php:67
+#: includes/class-gpos-payment-gateways.php:91
+msgid "Invalid gateway, gateway removed or %s disabled."
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:96
+msgctxt "Post type general name"
+msgid "Transactions"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:97
+msgctxt "Post type singular name"
+msgid "Transaction"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:98
+msgctxt "Admin Menu text"
+msgid "Transactions"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:99
+msgctxt "Add New on Toolbar"
+msgid "Transaction"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:100
+msgid "Add New"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:101
+msgid "Add New Transaction"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:102
+msgid "New Transaction"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:103
+msgid "Edit Transaction"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:104
+msgid "View Transaction"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:106
+msgid "Search Transactions"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:107
+msgid "Parent Transactions:"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:108
+msgid "No Transactions found."
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:109
+msgid "No Transactions found in Trash."
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:149
+#: includes/class-gpos-post-tables.php:78
+#: languages/gpos-settings-texts.php:97
+msgid "Process Type"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:158
+#: languages/gpos-settings-texts.php:30
+msgid "Refund"
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:185
+msgctxt "post status label"
+msgid "Started "
+msgstr ""
+
+#. translators: %s => Started durumundaki post adedi.
+#: includes/class-gpos-post-operations.php:188
+msgid "Started <span class=\"count\">(%s)</span>"
+msgid_plural "Started <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-gpos-post-operations.php:192
+msgctxt "post status label"
+msgid "Redirected To Payment Page "
+msgstr ""
+
+#. translators: %s => Redirected durumundaki post adedi.
+#: includes/class-gpos-post-operations.php:195
+msgid "Redirected To Payment Page <span class=\"count\">(%s)</span>"
+msgid_plural "Redirected To Payment Page <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-gpos-post-operations.php:199
+msgctxt "post status label"
+msgid "Completed "
+msgstr ""
+
+#. translators: %s => Completed durumundaki post adedi.
+#: includes/class-gpos-post-operations.php:202
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-gpos-post-operations.php:206
+msgctxt "post status label"
+msgid "Pending Payment "
+msgstr ""
+
+#. translators: %s => Pending Payment durumundaki post adedi.
+#: includes/class-gpos-post-operations.php:209
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-gpos-post-operations.php:213
+msgctxt "post status label"
+msgid "Failed "
+msgstr ""
+
+#. translators: %s => Failed durumundaki post adedi.
+#: includes/class-gpos-post-operations.php:216
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-gpos-post-operations.php:227
+msgctxt "post status label"
+msgid "Refunded "
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:231
+msgctxt "post status label"
+msgid "Not Refunded "
+msgstr ""
+
+#: includes/class-gpos-post-operations.php:235
+msgctxt "post status label"
+msgid "Partial Refunded "
+msgstr ""
+
+#: includes/class-gpos-post-tables.php:23
+#: languages/gpos-settings-texts.php:234
+msgid "Export"
+msgstr ""
+
+#: includes/class-gpos-post-tables.php:73
+#: languages/gpos-settings-texts.php:161
+msgid "Transaction"
+msgstr ""
+
+#: includes/class-gpos-post-tables.php:75
+#: languages/gpos-settings-texts.php:171
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-gpos-post-tables.php:81
+msgid "Security Type"
+msgstr ""
+
+#. translators: %s => Ödeme geçidi benzersiz numarası.
+#: includes/class-gpos-refund.php:71
+msgid "Cancel process completed successfully. Process Id: %s."
+msgstr ""
+
+#. translators: %s => Ödeme geçidi benzersiz numarası.
+#: includes/class-gpos-refund.php:101
+#: includes/class-gpos-refund.php:135
+msgid "Refund process completed successfully. Process Id: %s."
+msgstr ""
+
+#: includes/class-gpos-shortcode.php:53
+msgid "Please login to view your transactions."
+msgstr ""
+
+#: includes/class-gpos-shortcode.php:67
+msgid "Installment information could not be found. You can define your installment information from payment institutions or disable this feature."
+msgstr ""
+
+#: includes/class-gpos-status-check.php:45
+msgid "Time Zone (Changed from Settings->General Timezone Field.)"
+msgstr ""
+
+#: includes/class-gpos-status-check.php:53
+msgid "Permalinks are changed in settings -> permalinks."
+msgstr ""
+
+#: includes/class-gpos-status-check.php:57
+msgid "Your permalink cannot be empty."
+msgstr ""
+
+#: includes/class-gpos-status-check.php:61
+msgid "Callback Check (OK will prevent the correct operation of external answer notification calls)"
+msgstr ""
+
+#: includes/class-gpos-transaction.php:423
+msgid "Transaction started."
+msgstr ""
+
+#. translators: %1$s => Eski durum %2$s => Yeni durum.
+#: includes/class-gpos-transaction.php:585
+msgid "Status updated %1$s to %2$s"
+msgstr ""
+
+#. translators: %1$s => Link, %2$s => Text
+#: includes/class-gpos-transaction.php:1151
+msgid "Click to view the details of transaction <a href=\"%1$s\" target=\"_blank\">#%2$s</a>."
+msgstr ""
+
+#: includes/gpos-functions.php:305
+msgid "Error in 3D progress. The password was entered incorrectly or the 3D page was abandoned."
+msgstr ""
+
+#: includes/gpos-functions.php:314
+msgid "The status of the transaction remaining in the 3D routing state was marked as failed after rechecking. There may have been many failure scenarios in this transaction depending on the internet cloud."
+msgstr ""
+
+#: includes/gpos-functions.php:352
+#: languages/gpos-settings-texts.php:133
+msgid "OK"
+msgstr ""
+
+#: includes/gpos-functions.php:353
+#: includes/gpos-functions.php:408
+#: includes/gpos-functions.php:422
+#: includes/gpos-functions.php:426
+#: languages/gpos-settings-texts.php:182
+msgid "Yes"
+msgstr ""
+
+#: includes/gpos-functions.php:355
+msgid "Are you sure you want to remove payment gateway?"
+msgstr ""
+
+#: includes/gpos-functions.php:356
+msgid "Please wait..."
+msgstr ""
+
+#: includes/gpos-functions.php:357
+msgid "The settings have been saved."
+msgstr ""
+
+#: includes/gpos-functions.php:358
+msgid "Installments were applied."
+msgstr ""
+
+#: includes/gpos-functions.php:359
+msgid "Error when bringing in installments."
+msgstr ""
+
+#: includes/gpos-functions.php:360
+msgid "Process completed successfully !"
+msgstr ""
+
+#: includes/gpos-functions.php:361
+msgid "Error in refund process. Please review unsuccessful refunds for error details and try again."
+msgstr ""
+
+#: includes/gpos-functions.php:362
+msgid "Card number field cannot be left blank."
+msgstr ""
+
+#: includes/gpos-functions.php:363
+msgid "Card expiration month cannot be left blank."
+msgstr ""
+
+#: includes/gpos-functions.php:364
+msgid "Card expiration year cannot be left blank."
+msgstr ""
+
+#: includes/gpos-functions.php:365
+msgid "Card cvc field cannot be left blank."
+msgstr ""
+
+#: includes/gpos-functions.php:366
+msgid "Name on the card field cannot be left blank."
+msgstr ""
+
+#: includes/gpos-functions.php:367
+msgid "Test operation successful and saved settings"
+msgstr ""
+
+#: includes/gpos-functions.php:381
+#: includes/gpos-functions.php:384
+#: includes/gpos-functions.php:418
+msgid "Not available"
+msgstr ""
+
+#: includes/gpos-functions.php:391
+msgid "Theme Name"
+msgstr ""
+
+#: includes/gpos-functions.php:395
+msgid "Theme Version"
+msgstr ""
+
+#: includes/gpos-functions.php:399
+msgid "WordPress Version"
+msgstr ""
+
+#: includes/gpos-functions.php:403
+msgid "Plugin DB Version"
+msgstr ""
+
+#: includes/gpos-functions.php:407
+msgid "Multisite"
+msgstr ""
+
+#: includes/gpos-functions.php:408
+#: includes/gpos-functions.php:422
+#: includes/gpos-functions.php:426
+#: languages/gpos-settings-texts.php:183
+msgid "No"
+msgstr ""
+
+#: includes/gpos-functions.php:411
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/gpos-functions.php:412
+msgid "Activated"
+msgstr ""
+
+#: includes/gpos-functions.php:412
+msgid "Disabled"
+msgstr ""
+
+#: includes/gpos-functions.php:437
+#: languages/gpos-settings-texts.php:155
+msgid "IP Address"
+msgstr ""
+
+#: includes/gpos-functions.php:531
+msgid "Surname"
+msgstr ""
+
+#: includes/gpos-functions.php:537
+#: languages/gpos-settings-texts.php:153
+#: languages/gpos-settings-texts.php:248
+msgid "Country"
+msgstr ""
+
+#. translators: %s => Ödeme geçidi benzersiz numarası.
+#: includes/gpos-functions.php:720
+msgid "Payment completed successfully. Payment number: %s."
+msgstr ""
+
+#. translators: %s => Ödeme geçidi hatası.
+#: includes/gpos-functions.php:725
+msgid "Error in payment process: %s."
+msgstr ""
+
+#: includes/gpos-functions.php:737
+msgid "3D Hash verification error, the reason for this error is that your key (3D Key, ENC Key, Store Key) that encrypts the communication between the bank and the system is incorrect. Please verify this key."
+msgstr ""
+
+#: includes/payment-gateways/dummy-payment/class-gpos-dummy-payment-gateway.php:89
+msgid "Card information is incorrect"
+msgstr ""
+
+#: includes/payment-gateways/dummy-payment/class-gpos-dummy-payment.php:89
+msgid "Example payment gateway; Test the application without using any payment institution"
+msgstr ""
+
+#: includes/payment-gateways/iyzico-iframe/class-gpos-iyzico-iframe.php:117
+#: includes/payment-gateways/iyzico/class-gpos-iyzico.php:106
+#: includes/payment-gateways/papara-checkout/class-gpos-papara-checkout.php:118
+#: includes/payment-gateways/pay-with-iyzico/class-gpos-pay-with-iyzico.php:117
+#: includes/payment-gateways/pro/class-gpos-craftgate.php:77
+#: includes/payment-gateways/pro/class-gpos-mollie.php:89
+#: includes/payment-gateways/pro/class-gpos-paidora.php:89
+#: includes/payment-gateways/pro/class-gpos-shopier.php:89
+#: includes/payment-gateways/pro/class-gpos-weepay.php:76
+msgid "Api Key"
+msgstr ""
+
+#: includes/payment-gateways/iyzico-iframe/class-gpos-iyzico-iframe.php:122
+#: includes/payment-gateways/iyzico/class-gpos-iyzico.php:111
+#: includes/payment-gateways/pay-with-iyzico/class-gpos-pay-with-iyzico.php:122
+msgid "Security Key"
+msgstr ""
+
+#: includes/payment-gateways/iyzico-iframe/class-gpos-iyzico-iframe.php:127
+msgid "View Type"
+msgstr ""
+
+#: includes/payment-gateways/iyzico-iframe/class-gpos-iyzico-iframe.php:130
+#: languages/gpos-settings-texts.php:376
+msgid "Popup"
+msgstr ""
+
+#: includes/payment-gateways/iyzico-iframe/class-gpos-iyzico-iframe.php:131
+msgid "Responsive"
+msgstr ""
+
+#: includes/payment-gateways/iyzico/class-gpos-iyzico.php:94
+msgid "As of 31/01/2024, it can be used with the PRO plugin, it has been removed from the free plugin."
+msgstr ""
+
+#: includes/payment-gateways/papara-checkout/class-gpos-papara-checkout-gateway.php:131
+msgid "Payment transaction not confirmed by Papara"
+msgstr ""
+
+#: includes/payment-gateways/papara-checkout/class-gpos-papara-checkout.php:123
+#: includes/payment-gateways/papara/class-gpos-papara.php:97
+msgid "Secure Key"
+msgstr ""
+
+#: includes/payment-gateways/papara/class-gpos-papara.php:92
+#: includes/payment-gateways/pro/class-gpos-isyerimpos.php:81
+#: includes/payment-gateways/pro/class-gpos-ozan.php:71
+msgid "API Key"
+msgstr ""
+
+#: includes/payment-gateways/paratika/class-gpos-paratika.php:107
+#: includes/payment-gateways/pro/class-gpos-ziraatpay.php:70
+msgid "Institution/Company ID"
+msgstr ""
+
+#: includes/payment-gateways/paratika/class-gpos-paratika.php:112
+#: includes/payment-gateways/pro/class-gpos-ziraatpay.php:75
+msgid "Username/E-mail"
+msgstr ""
+
+#: includes/payment-gateways/paratika/class-gpos-paratika.php:117
+#: includes/payment-gateways/pro/class-gpos-akbank.php:88
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor-v2.php:80
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor.php:79
+#: includes/payment-gateways/pro/class-gpos-finansbank.php:81
+#: includes/payment-gateways/pro/class-gpos-halkbank-mkd.php:82
+#: includes/payment-gateways/pro/class-gpos-halkbank.php:81
+#: includes/payment-gateways/pro/class-gpos-is-bankasi-girogate.php:331
+#: includes/payment-gateways/pro/class-gpos-is-bankasi.php:88
+#: includes/payment-gateways/pro/class-gpos-kuveyt-turk.php:86
+#: includes/payment-gateways/pro/class-gpos-sekerbank.php:82
+#: includes/payment-gateways/pro/class-gpos-teb.php:81
+#: includes/payment-gateways/pro/class-gpos-united-payment.php:76
+#: includes/payment-gateways/pro/class-gpos-vakif-katilim.php:81
+#: includes/payment-gateways/pro/class-gpos-wyld.php:94
+#: includes/payment-gateways/pro/class-gpos-ziraat-katilim.php:78
+#: includes/payment-gateways/pro/class-gpos-ziraat.php:87
+#: includes/payment-gateways/pro/class-gpos-ziraatpay.php:80
+msgid "Password"
+msgstr ""
+
+#: includes/payment-gateways/paytr-iframe/class-gpos-paytr-iframe.php:103
+#: includes/payment-gateways/pro/class-gpos-akbank.php:78
+#: includes/payment-gateways/pro/class-gpos-albaraka.php:64
+#: includes/payment-gateways/pro/class-gpos-erpapay.php:64
+#: includes/payment-gateways/pro/class-gpos-finansbank.php:71
+#: includes/payment-gateways/pro/class-gpos-garanti-pay.php:82
+#: includes/payment-gateways/pro/class-gpos-garanti.php:71
+#: includes/payment-gateways/pro/class-gpos-halkbank-mkd.php:72
+#: includes/payment-gateways/pro/class-gpos-halkbank.php:71
+#: includes/payment-gateways/pro/class-gpos-is-bankasi-girogate.php:321
+#: includes/payment-gateways/pro/class-gpos-is-bankasi.php:78
+#: includes/payment-gateways/pro/class-gpos-isyerimpos.php:71
+#: includes/payment-gateways/pro/class-gpos-kuveyt-turk.php:71
+#: includes/payment-gateways/pro/class-gpos-paytr.php:78
+#: includes/payment-gateways/pro/class-gpos-qnbpay.php:71
+#: includes/payment-gateways/pro/class-gpos-sekerbank.php:72
+#: includes/payment-gateways/pro/class-gpos-setcard.php:80
+#: includes/payment-gateways/pro/class-gpos-teb.php:71
+#: includes/payment-gateways/pro/class-gpos-vakifbank.php:71
+#: includes/payment-gateways/pro/class-gpos-worldpay.php:75
+#: includes/payment-gateways/pro/class-gpos-yapi-kredi.php:70
+#: includes/payment-gateways/pro/class-gpos-ziraat.php:77
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/payment-gateways/paytr-iframe/class-gpos-paytr-iframe.php:108
+#: includes/payment-gateways/pro/class-gpos-denizbank.php:75
+#: includes/payment-gateways/pro/class-gpos-paytr.php:83
+#: includes/payment-gateways/pro/class-gpos-vakifbank.php:76
+msgid "Merchant Password"
+msgstr ""
+
+#: includes/payment-gateways/paytr-iframe/class-gpos-paytr-iframe.php:113
+#: includes/payment-gateways/pro/class-gpos-paytr.php:88
+msgid "Merchant Salt"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akbank-json.php:71
+msgid "Merchant Safe ID"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akbank-json.php:76
+msgid "Terminal Safe ID"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akbank-json.php:81
+#: includes/payment-gateways/pro/class-gpos-erpapay.php:69
+#: includes/payment-gateways/pro/class-gpos-setcard.php:90
+#: includes/payment-gateways/pro/class-gpos-weepay.php:81
+msgid "Secret Key"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akbank-json.php:90
+#: includes/payment-gateways/pro/class-gpos-akbank.php:102
+#: includes/payment-gateways/pro/class-gpos-denizbank.php:94
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor-v2.php:94
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor.php:93
+#: includes/payment-gateways/pro/class-gpos-finansbank.php:97
+#: includes/payment-gateways/pro/class-gpos-garanti-pay.php:111
+#: includes/payment-gateways/pro/class-gpos-garanti.php:100
+#: includes/payment-gateways/pro/class-gpos-halkbank-mkd.php:98
+#: includes/payment-gateways/pro/class-gpos-halkbank.php:97
+#: includes/payment-gateways/pro/class-gpos-is-bankasi-girogate.php:346
+#: includes/payment-gateways/pro/class-gpos-is-bankasi.php:104
+#: includes/payment-gateways/pro/class-gpos-sekerbank.php:98
+#: includes/payment-gateways/pro/class-gpos-teb.php:97
+#: includes/payment-gateways/pro/class-gpos-ziraat-katilim.php:92
+#: includes/payment-gateways/pro/class-gpos-ziraat.php:103
+#: languages/gpos-settings-texts.php:33
+msgid "3D Type"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akbank.php:83
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor-v2.php:75
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor.php:74
+#: includes/payment-gateways/pro/class-gpos-finansbank.php:76
+#: includes/payment-gateways/pro/class-gpos-halkbank-mkd.php:77
+#: includes/payment-gateways/pro/class-gpos-halkbank.php:76
+#: includes/payment-gateways/pro/class-gpos-is-bankasi-girogate.php:326
+#: includes/payment-gateways/pro/class-gpos-is-bankasi.php:83
+#: includes/payment-gateways/pro/class-gpos-kuveyt-turk.php:81
+#: includes/payment-gateways/pro/class-gpos-sekerbank.php:77
+#: includes/payment-gateways/pro/class-gpos-teb.php:76
+#: includes/payment-gateways/pro/class-gpos-vakif-katilim.php:75
+#: includes/payment-gateways/pro/class-gpos-wyld.php:89
+#: includes/payment-gateways/pro/class-gpos-ziraat-katilim.php:73
+#: includes/payment-gateways/pro/class-gpos-ziraat.php:82
+msgid "Username"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akbank.php:93
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor-v2.php:85
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor.php:84
+#: includes/payment-gateways/pro/class-gpos-finansbank.php:86
+#: includes/payment-gateways/pro/class-gpos-garanti-pay.php:102
+#: includes/payment-gateways/pro/class-gpos-garanti.php:91
+#: includes/payment-gateways/pro/class-gpos-halkbank-mkd.php:87
+#: includes/payment-gateways/pro/class-gpos-halkbank.php:86
+#: includes/payment-gateways/pro/class-gpos-is-bankasi-girogate.php:336
+#: includes/payment-gateways/pro/class-gpos-is-bankasi.php:93
+#: includes/payment-gateways/pro/class-gpos-sekerbank.php:87
+#: includes/payment-gateways/pro/class-gpos-teb.php:86
+#: includes/payment-gateways/pro/class-gpos-ziraat-katilim.php:83
+#: includes/payment-gateways/pro/class-gpos-ziraat.php:92
+msgid "3D Key"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akode.php:71
+#: includes/payment-gateways/pro/class-gpos-kuveyt-turk.php:76
+#: includes/payment-gateways/pro/class-gpos-vakif-katilim.php:69
+msgid "Client ID"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akode.php:76
+msgid "API User"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-akode.php:81
+#: includes/payment-gateways/pro/class-gpos-moka.php:81
+msgid "API Password"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-albaraka.php:69
+#: includes/payment-gateways/pro/class-gpos-garanti-pay.php:87
+#: includes/payment-gateways/pro/class-gpos-garanti.php:76
+#: includes/payment-gateways/pro/class-gpos-setcard.php:85
+#: includes/payment-gateways/pro/class-gpos-vakifbank.php:81
+#: includes/payment-gateways/pro/class-gpos-worldpay.php:80
+#: includes/payment-gateways/pro/class-gpos-yapi-kredi.php:75
+msgid "Terminal ID"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-albaraka.php:74
+#: includes/payment-gateways/pro/class-gpos-worldpay.php:85
+#: includes/payment-gateways/pro/class-gpos-yapi-kredi.php:80
+msgid "3D Key (ENCKey)"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-albaraka.php:79
+#: includes/payment-gateways/pro/class-gpos-worldpay.php:90
+#: includes/payment-gateways/pro/class-gpos-yapi-kredi.php:85
+msgid "PosNet ID"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-albaraka.php:247
+#: includes/payment-gateways/pro/class-gpos-denizbank.php:134
+#: includes/payment-gateways/pro/class-gpos-halkbank.php:118
+#: includes/payment-gateways/pro/class-gpos-kuveyt-turk.php:117
+#: includes/payment-gateways/pro/class-gpos-vakifbank.php:113
+#: includes/payment-gateways/pro/class-gpos-yapi-kredi.php:134
+#: includes/payment-gateways/pro/class-gpos-ziraat.php:124
+msgid "Your account information has been saved. In order for POS Integrator to work properly, you need to define / define your IP address from the payment institution / bank panel or by contacting the payment institution / bank. You can check \"POS Integrator -> Settings -> Status\" to learn your IP address."
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-craftgate.php:82
+#: includes/payment-gateways/pro/class-gpos-lidio.php:86
+msgid "Api Password"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-craftgate.php:87
+msgid "Member 3DSecure Callback Key\" in the Administration -> Merchant Settings interface on the panel.\""
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-denizbank.php:70
+#: includes/payment-gateways/pro/class-gpos-paycell.php:91
+msgid "Merchant Code"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-denizbank.php:80
+msgid "User Code"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-denizbank.php:85
+msgid "User Password"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-esnekpos.php:71
+msgid "Merchant"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-esnekpos.php:76
+#: includes/payment-gateways/pro/class-gpos-lidio.php:81
+#: includes/payment-gateways/pro/class-gpos-paybull.php:78
+#: includes/payment-gateways/pro/class-gpos-qnbpay.php:76
+#: includes/payment-gateways/pro/class-gpos-sipay.php:69
+#: includes/payment-gateways/pro/class-gpos-united-payment.php:86
+#: includes/payment-gateways/pro/class-gpos-vepara.php:76
+msgid "Merchant Key"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor-v2.php:65
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor.php:64
+#: includes/payment-gateways/pro/class-gpos-ziraat-katilim.php:63
+msgid "Corporate Code"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor-v2.php:70
+#: includes/payment-gateways/pro/class-gpos-finansbank-payfor.php:69
+#: includes/payment-gateways/pro/class-gpos-rubikpara.php:81
+#: includes/payment-gateways/pro/class-gpos-vakif-katilim.php:63
+#: includes/payment-gateways/pro/class-gpos-ziraat-katilim.php:68
+msgid "Merchant Number"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-garanti-pay.php:92
+#: includes/payment-gateways/pro/class-gpos-garanti.php:81
+msgid "Payment User"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-garanti-pay.php:97
+#: includes/payment-gateways/pro/class-gpos-garanti.php:86
+msgid "Payment User Password"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-garanti-pay.php:116
+#: includes/payment-gateways/pro/class-gpos-garanti.php:105
+msgid "Refund User"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-garanti-pay.php:121
+#: includes/payment-gateways/pro/class-gpos-garanti.php:110
+msgid "Refund User Password"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-hepsipay.php:82
+msgid "Merchant No"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-hepsipay.php:87
+msgid "Terminal No"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-hepsipay.php:92
+msgid "Store Key"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-is-bankasi-girogate.php:351
+msgid "Methods"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-isyerimpos.php:76
+msgid "User ID"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-lidio.php:71
+#: includes/payment-gateways/pro/class-gpos-sipay.php:64
+#: includes/payment-gateways/pro/class-gpos-united-payment.php:81
+#: includes/payment-gateways/pro/class-gpos-vepara.php:71
+msgid "Merchant Id"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-lidio.php:76
+msgid "Merchant Authentication"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-moka.php:71
+msgid "Bayii Kodu"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-moka.php:76
+msgid "API Username"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-ozan.php:76
+msgid "API Secret"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paidora.php:94
+#: includes/payment-gateways/pro/class-gpos-shopier.php:94
+msgid "Api Secret"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paidora.php:99
+msgid "Host ( https://<host>/ )"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-param.php:71
+msgid "Client Username"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-param.php:76
+msgid "Client Password"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-param.php:81
+msgid "Client Code"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-param.php:86
+msgid "GUID"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paybull.php:83
+#: includes/payment-gateways/pro/class-gpos-qnbpay.php:81
+#: includes/payment-gateways/pro/class-gpos-sipay.php:74
+#: includes/payment-gateways/pro/class-gpos-vepara.php:81
+msgid "App Key"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paybull.php:88
+#: includes/payment-gateways/pro/class-gpos-qnbpay.php:86
+#: includes/payment-gateways/pro/class-gpos-sipay.php:79
+#: includes/payment-gateways/pro/class-gpos-vepara.php:86
+msgid "App Secret"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paycell.php:71
+msgid "Application name"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paycell.php:76
+msgid "Application password"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paycell.php:81
+msgid "Secure code"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paycell.php:86
+msgid "Eulaid"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paynkolay.php:84
+msgid "Sx"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paynkolay.php:89
+msgid "Cancel Sx"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paynkolay.php:94
+msgid "List Sx"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paynkolay.php:99
+msgid "Merchant Secret Key"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paytr.php:93
+msgid "Sync Mode"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paytr.php:96
+msgid "Off"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paytr.php:97
+msgid "On"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-paytr.php:160
+msgid "Your account information has been saved. In order for the POS Integrator to work properly, you need to define/define your notification address from the payment PayTR panel or by contacting PayTR. You can check the “POS Integrator -> Payment Methods -> PayTR” section to learn your notification address."
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-rubikpara.php:71
+msgid "Public Key"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-rubikpara.php:76
+msgid "Private Key"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-united-payment.php:91
+msgid "Base URL"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-vallet.php:89
+msgid "Kullanıcı Adı"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-vallet.php:94
+msgid "Parola"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-vallet.php:99
+msgid "Mağaza Kodu"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-vallet.php:104
+msgid "Hash Anahtarı"
+msgstr ""
+
+#: includes/payment-gateways/pro/class-gpos-weepay.php:71
+msgid "Seller Id"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpos-givewp-v3-payment-gateway.php:99
+msgid "Use transactions for online refund/cancel operations"
+msgstr ""
+
+#: includes/plugin-gateways/class-gpos-woocommerce-blocks-payment-gateway.php:61
+msgid "POS Entegratör Woo Blocks Desteği için PRO sürüme Yükseltin "
+msgstr ""
+
+#. translators: vade farkı
+#: includes/traits/trait-gpos-plugin-payment-gateway.php:264
+msgid "Installment Fee (%s Mounth)"
+msgstr ""
+
+#. translators: %s => Ödeme geçidindeki tekil kimlik.
+#: includes/traits/trait-gpos-plugin-payment-gateway.php:472
+msgid "Pending payment. Payment number: %s"
+msgstr ""
+
+#. translators: %s => Ödeme geçidindeki tekil kimlik.
+#: includes/traits/trait-gpos-plugin-payment-gateway.php:476
+msgid "Payment completed successfully. Payment number: %s"
+msgstr ""
+
+#. translators: %s => Ödeme geçidindeki tekil kimlik.
+#: includes/traits/trait-gpos-plugin-payment-gateway.php:476
+msgid "Payment completed successfully."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:11
+msgid "Institution/Company ID and user information are required to integrate your Paratika POS. You can access the Institution/Company ID information on the Paratika Pos Panel by following the steps: My Information -> Basic Information. If you have not created a user before, you need to create a user by following the Users -> Add User steps in the same panel."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:14
+msgid "You can ensure integration by entering the API information sent to you via e-mail by Şekerbank through this panel."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:17
+msgid "The information required for the Ozan Virtual Pos integration will be obtained from the Ozan Virtual Pos Screen."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:20
+msgid "You can get the necessary api information for the integration of your Sipay Virtual POS: You can log in to the Sipay Virtual POS Panel and get it from the Settings -> Integration & API page."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:23
+msgid "You can access your Mollie API information via mollie dashboard > my account."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:26
+#: languages/gpos-bank-texts.php:29
+#: languages/gpos-bank-texts.php:32
+msgid "API and security key information is required for iyzico integration. You can access your API and security keys from the Settings->Company Settings section of your iyzico merchant panel. "
+msgstr ""
+
+#: languages/gpos-bank-texts.php:35
+msgid "Required information for Esnekpos integration will be provided from the Esnekpos  user panel. "
+msgstr ""
+
+#: languages/gpos-bank-texts.php:38
+msgid "Param API information is required for Param POS integration. To access this information, you can access the necessary information from the page that opens after logging in to Param internet branch and clicking the \"My Integration Information\" tab under the ParamPos Menu. "
+msgstr ""
+
+#. translators: %s Site url.
+#: languages/gpos-bank-texts.php:42
+#: languages/gpos-bank-texts.php:46
+msgid "For PayTR integration, API information and notification URL definition is required.<br><br>You can access API information from the <strong>Integration Information</strong> section under the <strong>Support & Setup</strong> menu on your panel.<br><br>Notification url: <strong> %s/gpos-paytr-callback</strong>"
+msgstr ""
+
+#: languages/gpos-bank-texts.php:49
+msgid "The information required for Akbank Virtual Pos integration will be obtained from the Akbank Virtual Pos Screen."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:52
+msgid "The information required for AKÖde POS integration will be obtained from the AKÖde POS Screen."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:55
+msgid "API Integration Information is required for Craftgate integration. This information is located in the Craftgate control panel: Admin Menu -> Merchant Settings Tab -> API Access Information."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:58
+msgid "After logging into your Denizbank Virtual Pos panel, you need to create a new API user for integration information, if you have not created one before. After logging in, you can create an API user record by logging into the User Editing and Authorization page from the User Management System menu on the left. You can provide integration by filling in the API user information you have created in the relevant places."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:61
+#: languages/gpos-bank-texts.php:64
+#: languages/gpos-bank-texts.php:175
+msgid "For integration information after logging into your Finansbank panel: If you have not created one before, create an API user with the help of User Management from the Administration Menu. Fill in the API user information you created to the relevant places in the POS Entegratör."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:67
+msgid "Obtain the necessary information for the Garanti Pos integration from the Garanti Virtual Pos Screen."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:70
+#: languages/gpos-bank-texts.php:73
+msgid "After logging into your Halkbank panel, click on the management menu. If no user has been created before, we create an \"API USER\" from the User list section. We take the necessary information from the menus on the left and fill it in the relevant places in the POS Entegratör."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:76
+msgid "The information required for ING Bank Pos integration will be obtained from the ING Bank Virtual Pos Screen."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:79
+#: languages/gpos-bank-texts.php:127
+msgid "After logging into the İşbank virtual pos system, if no API user has been created before, an API user must be created by entering the \"Add New User\" section under the \"Management\" heading. Then, API user information should be filled in the relevant places."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:82
+msgid "Information required for Kuveyt Türk Pos integration will be obtained from the Kuveyt Türk Virtual Pos Screen."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:85
+msgid "After logging into your TEB bank virtual pos panel, we click on the management menu. If no user has been created before, we create an \"API USER\" from the User list section. We fill in the necessary information in the relevant places in the POS Entegratör. "
+msgstr ""
+
+#: languages/gpos-bank-texts.php:88
+msgid "We click on the \"CONTRACTED MERCHANT TRANSACTIONS\" section under the \"MANAGEMENT\" tab from the Vakıfbank Virtual Pos panel. The page that opens contains the necessary information for our company. We fill this information in the relevant places in POS Entegratör."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:91
+#: languages/gpos-bank-texts.php:133
+msgid "The information required for the Yapı Kredi Virtual POS integration will be obtained from the Yapı Kredi Virtual POS Screen."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:94
+msgid "After logging into Ziraat Bank Virtual Pos panel, if you have not created an API user before, first we click on the \"Management\" tab, we define a new user by selecting \"Role\" API User from the \"Add New User\" field. Then, we fill in the \"User Name\" and \"Password\" information you have defined in this field in the relevant fields in POS Entegratör."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:97
+msgid "API Integration Information is required for Paidora integration. This information: Paidora user panel: Information menu -> API Integration Information is located under the heading."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:100
+msgid "API values generated by Lidio, which gives you access to all service methods. This values is produced by Lidio only and transmitted to you."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:103
+msgid "API values generated by United Payment, which gives you access to all service methods. This values is produced by United Payment only and transmitted to you."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:106
+msgid "Dummy Payment is a fake payment service created to show how payment processes are carried out without API information of payment institutions."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:109
+msgid "API values generated by Pay Bull, which gives you access to all service methods. This values is produced by Pay Bull only and transmitted to you."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:112
+msgid "API values generated by Pay N Kolay, which gives you access to all service methods. This values is produced by Pay N Kolay only and transmitted to you."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:115
+msgid "API values generated by Paycell provide access to all service methods. These values are exclusively produced by Paycell and securely transmitted to you"
+msgstr ""
+
+#: languages/gpos-bank-texts.php:118
+msgid "The information required for the WYLD integration will be obtained from the WYLD screen."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:121
+msgid "You can access API information from the Integration & API information page in the Settings menu in your QNBpay merchant panel."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:124
+msgid "You can learn your GarantiPAY integration information by sending an e-mail to <strong>eticaretdestek@garantibbva.com.tr</strong>."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:130
+msgid "API values generated by Weepay, which gives you access to all service methods. This values is produced by Weepay only and transmitted to you."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:134
+msgid "Enter your installment rates. If left blank, the installment option will be disabled."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:137
+msgid "You can get the necessary api information for the integration of your Vepara Virtual POS: You can log in to the Vepara Virtual POS Panel and get it from the Settings -> Integration & API page."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:140
+msgid "You can obtain your API information by viewing your dealer information from your Moka admin panel.."
+msgstr ""
+
+#. translators: %s Site url.
+#: languages/gpos-bank-texts.php:145
+msgid "API Integration Knowledge is required for Shopier integration. This information: Shopier user panel: You can add the site you will use the payment to in the Integrations->Module Management section, then enter the API information on the left in the Module Settings tab, and you must define <strong>%s/gpos-shopier-callback</strong> as the return address."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:150
+msgid "You can view your Erpapay API information from your profile via your seller panel."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:154
+#: languages/gpos-bank-texts.php:157
+msgid "For integration information after logging into your Papara panel: If you have not created one before, create an API user with the help of User Management from the Administration Menu. Fill in the API user information you created to the relevant places in the POS Entegratör."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:160
+msgid "Once your contracts for Hepsipay API information are completed, your sales representative will return the integration API information to you."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:163
+msgid "You can get your API information from Vakıfbank by contacting sanalposdestek@vakifkatilim.com.tr"
+msgstr ""
+
+#: languages/gpos-bank-texts.php:166
+msgid "You need to log in to the ZiraatPay panel with the username and password given to you by the bank, create an API user and fill in the necessary fields in our plugin."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:169
+msgid "You can access all information about Akbank integration at sanalpos.akbank.com. All the information that needs to be filled in on the left side is included in your company information."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:172
+msgid "Albaraka first sends you TEST API information via e-mail. You should enter this information while TEST MODE is open and try a transaction with the test card sent to you. If the transaction is completely successful, you can request LIVE API information from your bank and close the test mode. Note: TEST 3D Key (ENCKey) information: 10,10,10,10,10,10,10,10"
+msgstr ""
+
+#: languages/gpos-bank-texts.php:178
+msgid "You can complete the integration by entering the API information sent to you by e-mail from your bank. Note: The MRBID (Corporate Code) value must be \"12\"."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:181
+msgid "You can access all necessary API information from the İşyerimPOS Virtual POS panel."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:184
+msgid "You can access all necessary API information from the RubikPara Virtual POS panel."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:187
+msgid "You can access all necessary API information from the Setcard Virtual POS panel."
+msgstr ""
+
+#: languages/gpos-bank-texts.php:190
+msgid "You can access all necessary API information from the Vakıf Katılım Virtual POS panel."
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:9
+msgid "You have not activated any pos integration, please complete your settings."
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:10
+msgid "Pay with different card"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:11
+msgid "Pay with my saved card"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:13
+msgid "Installment Number"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:14
+msgid "Monthly Payment"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:15
+#: views/vue-app-div.php:39
+msgid "Month"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:17
+msgid "Name on the card"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:19
+msgid "While the test mode is active, your payments will be made with the Test APIs."
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:21
+msgid "Month/Year"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:22
+msgid "MM / YY"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:23
+msgid "MM"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:24
+msgid "YY"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:25
+msgid "I want to pay with 3d secure."
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:26
+msgid "Save my card for next payments."
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:27
+#: languages/gpos-settings-texts.php:298
+msgid "Saved Card"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:28
+msgid "Card name"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:30
+#: languages/gpos-settings-texts.php:351
+msgid "Bank Transfers"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:31
+#: languages/gpos-settings-texts.php:349
+msgid "Alternative Payments"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:32
+msgid "shopping_credit"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:33
+#: languages/gpos-settings-texts.php:356
+msgid "Common Form Payments"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:34
+#: languages/gpos-settings-texts.php:358
+msgid "iFrame Payments"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:35
+msgid "Select Method"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:36
+msgid "Select Country"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:37
+msgid "Advace"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:38
+msgid "Other Installment Options"
+msgstr ""
+
+#: languages/gpos-checkout-texts.php:39
+msgid "Hide"
+msgstr ""
+
+#: languages/gpos-countries.php:9
+msgid "Afghanistan"
+msgstr ""
+
+#: languages/gpos-countries.php:10
+msgid "Albania"
+msgstr ""
+
+#: languages/gpos-countries.php:11
+msgid "Algeria"
+msgstr ""
+
+#: languages/gpos-countries.php:12
+msgid "Andorra"
+msgstr ""
+
+#: languages/gpos-countries.php:13
+msgid "Angola"
+msgstr ""
+
+#: languages/gpos-countries.php:14
+msgid "Argentina"
+msgstr ""
+
+#: languages/gpos-countries.php:15
+msgid "Armenia"
+msgstr ""
+
+#: languages/gpos-countries.php:16
+msgid "Australia"
+msgstr ""
+
+#: languages/gpos-countries.php:17
+msgid "Austria"
+msgstr ""
+
+#: languages/gpos-countries.php:18
+msgid "Azerbaijan"
+msgstr ""
+
+#: languages/gpos-countries.php:19
+msgid "Bahamas"
+msgstr ""
+
+#: languages/gpos-countries.php:20
+msgid "Bahrain"
+msgstr ""
+
+#: languages/gpos-countries.php:21
+msgid "Bangladesh"
+msgstr ""
+
+#: languages/gpos-countries.php:22
+msgid "Barbados"
+msgstr ""
+
+#: languages/gpos-countries.php:23
+msgid "Belarus"
+msgstr ""
+
+#: languages/gpos-countries.php:24
+msgid "Belgium"
+msgstr ""
+
+#: languages/gpos-countries.php:25
+msgid "Belize"
+msgstr ""
+
+#: languages/gpos-countries.php:26
+msgid "Benin"
+msgstr ""
+
+#: languages/gpos-countries.php:27
+msgid "Bhutan"
+msgstr ""
+
+#: languages/gpos-countries.php:28
+msgid "Bolivia"
+msgstr ""
+
+#: languages/gpos-countries.php:29
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: languages/gpos-countries.php:30
+msgid "Botswana"
+msgstr ""
+
+#: languages/gpos-countries.php:31
+msgid "Brazil"
+msgstr ""
+
+#: languages/gpos-countries.php:32
+msgid "Brunei"
+msgstr ""
+
+#: languages/gpos-countries.php:33
+msgid "Bulgaria"
+msgstr ""
+
+#: languages/gpos-countries.php:34
+msgid "Burkina Faso"
+msgstr ""
+
+#: languages/gpos-countries.php:35
+msgid "Burundi"
+msgstr ""
+
+#: languages/gpos-countries.php:36
+msgid "Cambodia"
+msgstr ""
+
+#: languages/gpos-countries.php:37
+msgid "Cameroon"
+msgstr ""
+
+#: languages/gpos-countries.php:38
+msgid "Canada"
+msgstr ""
+
+#: languages/gpos-countries.php:39
+msgid "Cape Verde"
+msgstr ""
+
+#: languages/gpos-countries.php:40
+msgid "Central African Republic"
+msgstr ""
+
+#: languages/gpos-countries.php:41
+msgid "Chad"
+msgstr ""
+
+#: languages/gpos-countries.php:42
+msgid "Chile"
+msgstr ""
+
+#: languages/gpos-countries.php:43
+msgid "China"
+msgstr ""
+
+#: languages/gpos-countries.php:44
+msgid "Colombia"
+msgstr ""
+
+#: languages/gpos-countries.php:45
+msgid "Comoros"
+msgstr ""
+
+#: languages/gpos-countries.php:46
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: languages/gpos-countries.php:47
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: languages/gpos-countries.php:48
+msgid "Costa Rica"
+msgstr ""
+
+#: languages/gpos-countries.php:49
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: languages/gpos-countries.php:50
+msgid "Croatia"
+msgstr ""
+
+#: languages/gpos-countries.php:51
+msgid "Cuba"
+msgstr ""
+
+#: languages/gpos-countries.php:52
+msgid "Cyprus"
+msgstr ""
+
+#: languages/gpos-countries.php:53
+msgid "Czech Republic"
+msgstr ""
+
+#: languages/gpos-countries.php:54
+msgid "Denmark"
+msgstr ""
+
+#: languages/gpos-countries.php:55
+msgid "Djibouti"
+msgstr ""
+
+#: languages/gpos-countries.php:56
+msgid "Dominica"
+msgstr ""
+
+#: languages/gpos-countries.php:57
+msgid "Dominican Republic"
+msgstr ""
+
+#: languages/gpos-countries.php:58
+msgid "Ecuador"
+msgstr ""
+
+#: languages/gpos-countries.php:59
+msgid "Egypt"
+msgstr ""
+
+#: languages/gpos-countries.php:60
+msgid "El Salvador"
+msgstr ""
+
+#: languages/gpos-countries.php:61
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: languages/gpos-countries.php:62
+msgid "Eritrea"
+msgstr ""
+
+#: languages/gpos-countries.php:63
+msgid "Estonia"
+msgstr ""
+
+#: languages/gpos-countries.php:64
+msgid "Ethiopia"
+msgstr ""
+
+#: languages/gpos-countries.php:65
+msgid "Fiji"
+msgstr ""
+
+#: languages/gpos-countries.php:66
+msgid "Finland"
+msgstr ""
+
+#: languages/gpos-countries.php:67
+msgid "France"
+msgstr ""
+
+#: languages/gpos-countries.php:68
+msgid "Gabon"
+msgstr ""
+
+#: languages/gpos-countries.php:69
+msgid "Gambia"
+msgstr ""
+
+#: languages/gpos-countries.php:70
+msgid "Georgia"
+msgstr ""
+
+#: languages/gpos-countries.php:71
+msgid "Germany"
+msgstr ""
+
+#: languages/gpos-countries.php:72
+msgid "Ghana"
+msgstr ""
+
+#: languages/gpos-countries.php:73
+msgid "Greece"
+msgstr ""
+
+#: languages/gpos-countries.php:74
+msgid "Grenada"
+msgstr ""
+
+#: languages/gpos-countries.php:75
+msgid "Guatemala"
+msgstr ""
+
+#: languages/gpos-countries.php:76
+msgid "Guinea"
+msgstr ""
+
+#: languages/gpos-countries.php:77
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: languages/gpos-countries.php:78
+msgid "Guyana"
+msgstr ""
+
+#: languages/gpos-countries.php:79
+msgid "Haiti"
+msgstr ""
+
+#: languages/gpos-countries.php:80
+msgid "Honduras"
+msgstr ""
+
+#: languages/gpos-countries.php:81
+msgid "Hungary"
+msgstr ""
+
+#: languages/gpos-countries.php:82
+msgid "Iceland"
+msgstr ""
+
+#: languages/gpos-countries.php:83
+msgid "India"
+msgstr ""
+
+#: languages/gpos-countries.php:84
+msgid "Indonesia"
+msgstr ""
+
+#: languages/gpos-countries.php:85
+msgid "Iran"
+msgstr ""
+
+#: languages/gpos-countries.php:86
+msgid "Iraq"
+msgstr ""
+
+#: languages/gpos-countries.php:87
+msgid "Ireland"
+msgstr ""
+
+#: languages/gpos-countries.php:88
+msgid "Israel"
+msgstr ""
+
+#: languages/gpos-countries.php:89
+msgid "Italy"
+msgstr ""
+
+#: languages/gpos-countries.php:90
+msgid "Jamaica"
+msgstr ""
+
+#: languages/gpos-countries.php:91
+msgid "Japan"
+msgstr ""
+
+#: languages/gpos-countries.php:92
+msgid "Jordan"
+msgstr ""
+
+#: languages/gpos-countries.php:93
+msgid "Kazakhstan"
+msgstr ""
+
+#: languages/gpos-countries.php:94
+msgid "Kenya"
+msgstr ""
+
+#: languages/gpos-countries.php:95
+msgid "Kiribati"
+msgstr ""
+
+#: languages/gpos-countries.php:96
+msgid "Kuwait"
+msgstr ""
+
+#: languages/gpos-countries.php:97
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: languages/gpos-countries.php:98
+msgid "Laos"
+msgstr ""
+
+#: languages/gpos-countries.php:99
+msgid "Latvia"
+msgstr ""
+
+#: languages/gpos-countries.php:100
+msgid "Lebanon"
+msgstr ""
+
+#: languages/gpos-countries.php:101
+msgid "Lesotho"
+msgstr ""
+
+#: languages/gpos-countries.php:102
+msgid "Liberia"
+msgstr ""
+
+#: languages/gpos-countries.php:103
+msgid "Libya"
+msgstr ""
+
+#: languages/gpos-countries.php:104
+msgid "Liechtenstein"
+msgstr ""
+
+#: languages/gpos-countries.php:105
+msgid "Lithuania"
+msgstr ""
+
+#: languages/gpos-countries.php:106
+msgid "Luxembourg"
+msgstr ""
+
+#: languages/gpos-countries.php:107
+msgid "Macedonia"
+msgstr ""
+
+#: languages/gpos-countries.php:108
+msgid "Madagascar"
+msgstr ""
+
+#: languages/gpos-countries.php:109
+msgid "Malawi"
+msgstr ""
+
+#: languages/gpos-countries.php:110
+msgid "Malaysia"
+msgstr ""
+
+#: languages/gpos-countries.php:111
+msgid "Maldives"
+msgstr ""
+
+#: languages/gpos-countries.php:112
+msgid "Mali"
+msgstr ""
+
+#: languages/gpos-countries.php:113
+msgid "Malta"
+msgstr ""
+
+#: languages/gpos-countries.php:114
+msgid "Marshall Islands"
+msgstr ""
+
+#: languages/gpos-countries.php:115
+msgid "Mauritania"
+msgstr ""
+
+#: languages/gpos-countries.php:116
+msgid "Mauritius"
+msgstr ""
+
+#: languages/gpos-countries.php:117
+msgid "Mexico"
+msgstr ""
+
+#: languages/gpos-countries.php:118
+msgid "Micronesia"
+msgstr ""
+
+#: languages/gpos-countries.php:119
+msgid "Moldova"
+msgstr ""
+
+#: languages/gpos-countries.php:120
+msgid "Monaco"
+msgstr ""
+
+#: languages/gpos-countries.php:121
+msgid "Mongolia"
+msgstr ""
+
+#: languages/gpos-countries.php:122
+msgid "Montenegro"
+msgstr ""
+
+#: languages/gpos-countries.php:123
+msgid "Morocco"
+msgstr ""
+
+#: languages/gpos-countries.php:124
+msgid "Mozambique"
+msgstr ""
+
+#: languages/gpos-countries.php:125
+msgid "Myanmar"
+msgstr ""
+
+#: languages/gpos-countries.php:126
+msgid "Namibia"
+msgstr ""
+
+#: languages/gpos-countries.php:127
+msgid "Nauru"
+msgstr ""
+
+#: languages/gpos-countries.php:128
+msgid "Nepal"
+msgstr ""
+
+#: languages/gpos-countries.php:129
+msgid "Netherlands"
+msgstr ""
+
+#: languages/gpos-countries.php:130
+msgid "New Zealand"
+msgstr ""
+
+#: languages/gpos-countries.php:131
+msgid "Nicaragua"
+msgstr ""
+
+#: languages/gpos-countries.php:132
+msgid "Niger"
+msgstr ""
+
+#: languages/gpos-countries.php:133
+msgid "Nigeria"
+msgstr ""
+
+#: languages/gpos-countries.php:134
+msgid "Norway"
+msgstr ""
+
+#: languages/gpos-countries.php:135
+msgid "Oman"
+msgstr ""
+
+#: languages/gpos-countries.php:136
+msgid "Pakistan"
+msgstr ""
+
+#: languages/gpos-countries.php:137
+msgid "Palau"
+msgstr ""
+
+#: languages/gpos-countries.php:138
+msgid "Palestine"
+msgstr ""
+
+#: languages/gpos-countries.php:139
+msgid "Panama"
+msgstr ""
+
+#: languages/gpos-countries.php:140
+msgid "Papua New Guinea"
+msgstr ""
+
+#: languages/gpos-countries.php:141
+msgid "Paraguay"
+msgstr ""
+
+#: languages/gpos-countries.php:142
+msgid "Peru"
+msgstr ""
+
+#: languages/gpos-countries.php:143
+msgid "Philippines"
+msgstr ""
+
+#: languages/gpos-countries.php:144
+msgid "Poland"
+msgstr ""
+
+#: languages/gpos-countries.php:145
+msgid "Portugal"
+msgstr ""
+
+#: languages/gpos-countries.php:146
+msgid "Qatar"
+msgstr ""
+
+#: languages/gpos-countries.php:147
+msgid "Romania"
+msgstr ""
+
+#: languages/gpos-countries.php:148
+msgid "Russia"
+msgstr ""
+
+#: languages/gpos-countries.php:149
+msgid "Rwanda"
+msgstr ""
+
+#: languages/gpos-countries.php:150
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: languages/gpos-countries.php:151
+msgid "Saint Lucia"
+msgstr ""
+
+#: languages/gpos-countries.php:152
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: languages/gpos-countries.php:153
+msgid "Samoa"
+msgstr ""
+
+#: languages/gpos-countries.php:154
+msgid "San Marino"
+msgstr ""
+
+#: languages/gpos-countries.php:155
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: languages/gpos-countries.php:156
+msgid "Saudi Arabia"
+msgstr ""
+
+#: languages/gpos-countries.php:157
+msgid "Senegal"
+msgstr ""
+
+#: languages/gpos-countries.php:158
+msgid "Serbia"
+msgstr ""
+
+#: languages/gpos-countries.php:159
+msgid "Seychelles"
+msgstr ""
+
+#: languages/gpos-countries.php:160
+msgid "Sierra Leone"
+msgstr ""
+
+#: languages/gpos-countries.php:161
+msgid "Singapore"
+msgstr ""
+
+#: languages/gpos-countries.php:162
+msgid "Slovakia"
+msgstr ""
+
+#: languages/gpos-countries.php:163
+msgid "Slovenia"
+msgstr ""
+
+#: languages/gpos-countries.php:164
+msgid "Solomon Islands"
+msgstr ""
+
+#: languages/gpos-countries.php:165
+msgid "Somalia"
+msgstr ""
+
+#: languages/gpos-countries.php:166
+msgid "South Africa"
+msgstr ""
+
+#: languages/gpos-countries.php:167
+msgid "South Korea"
+msgstr ""
+
+#: languages/gpos-countries.php:168
+msgid "South Sudan"
+msgstr ""
+
+#: languages/gpos-countries.php:169
+msgid "Spain"
+msgstr ""
+
+#: languages/gpos-countries.php:170
+msgid "Sri Lanka"
+msgstr ""
+
+#: languages/gpos-countries.php:171
+msgid "Sudan"
+msgstr ""
+
+#: languages/gpos-countries.php:172
+msgid "Suriname"
+msgstr ""
+
+#: languages/gpos-countries.php:173
+msgid "Swaziland"
+msgstr ""
+
+#: languages/gpos-countries.php:174
+msgid "Sweden"
+msgstr ""
+
+#: languages/gpos-countries.php:175
+msgid "Switzerland"
+msgstr ""
+
+#: languages/gpos-countries.php:176
+msgid "Syria"
+msgstr ""
+
+#: languages/gpos-countries.php:177
+msgid "Taiwan"
+msgstr ""
+
+#: languages/gpos-countries.php:178
+msgid "Tajikistan"
+msgstr ""
+
+#: languages/gpos-countries.php:179
+msgid "Tanzania"
+msgstr ""
+
+#: languages/gpos-countries.php:180
+msgid "Thailand"
+msgstr ""
+
+#: languages/gpos-countries.php:181
+msgid "Timor-Leste"
+msgstr ""
+
+#: languages/gpos-countries.php:182
+msgid "Togo"
+msgstr ""
+
+#: languages/gpos-countries.php:183
+msgid "Tonga"
+msgstr ""
+
+#: languages/gpos-countries.php:184
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: languages/gpos-countries.php:185
+msgid "Tunisia"
+msgstr ""
+
+#: languages/gpos-countries.php:186
+msgid "Turkey"
+msgstr ""
+
+#: languages/gpos-countries.php:187
+msgid "Turkmenistan"
+msgstr ""
+
+#: languages/gpos-countries.php:188
+msgid "Tuvalu"
+msgstr ""
+
+#: languages/gpos-countries.php:189
+msgid "Uganda"
+msgstr ""
+
+#: languages/gpos-countries.php:190
+msgid "Ukraine"
+msgstr ""
+
+#: languages/gpos-countries.php:191
+msgid "United Arab Emirates"
+msgstr ""
+
+#: languages/gpos-countries.php:192
+msgid "United Kingdom"
+msgstr ""
+
+#: languages/gpos-countries.php:193
+msgid "United States"
+msgstr ""
+
+#: languages/gpos-countries.php:194
+msgid "Uruguay"
+msgstr ""
+
+#: languages/gpos-countries.php:195
+msgid "Uzbekistan"
+msgstr ""
+
+#: languages/gpos-countries.php:196
+msgid "Vanuatu"
+msgstr ""
+
+#: languages/gpos-countries.php:197
+msgid "Vatican City"
+msgstr ""
+
+#: languages/gpos-countries.php:198
+msgid "Venezuela"
+msgstr ""
+
+#: languages/gpos-countries.php:199
+msgid "Vietnam"
+msgstr ""
+
+#: languages/gpos-countries.php:200
+msgid "Yemen"
+msgstr ""
+
+#: languages/gpos-countries.php:201
+msgid "Zambia"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:23
+msgid "Payment Method"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:24
+msgid "3D Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:25
+msgid "Regular Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:26
+#: languages/gpos-settings-texts.php:60
+msgid "Save Card"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:27
+msgid "Recurring Payment (Saved Card)"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:28
+msgid "Recurring Payment (Payment Plan)"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:29
+msgid "Automatic Plan"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:32
+msgid "Processing"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:34
+msgid "Free"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:35
+msgid "Pro Upgrade"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:36
+msgid "Announcements"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:37
+msgid "Payment Provider"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:38
+msgid "Can`t find the payment provider you`re looking for?"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:39
+msgid "Contact Us"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:40
+msgid "Features"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:41
+msgid "Currencies"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:43
+msgid "Actions"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:44
+msgid "You do not have an active pay organization."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:45
+msgid "Test Mode"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:46
+msgid "It puts the entire application into test mode and allows you to test with test apis."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:47
+msgid "Application related"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:48
+msgid "View help documents about {0}"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:49
+msgid "3D Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:50
+msgid "Info: If your virtual POS does not support regular transactions, the payment will be taken in 3D even if the Payment Without 3D or Ask User options are selected."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:51
+msgid "Not 3D"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:52
+msgid "Users complete the payment directly"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:53
+msgid "Ask User"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:54
+msgid "User selects 3D option at checkout"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:55
+msgid "Forced 3D"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:56
+msgid "Users are redirected to the 3D Screen after paying."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:57
+msgid "Other Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:58
+msgid "Get name and surname information on the form"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:59
+msgid " For card holder name information; if the setting is on, a name field will appear above the card number section. If it is off, the first and last name in the order fields will be used."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:61
+msgid "With the Card Save feature, your customers can register their cards during paying."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:62
+msgid "Recurring Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:63
+msgid "Sell subscription products with the WooCommerce Subscriber Plugin"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:64
+msgid "Appearance Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:65
+msgid "Standard Payment Form"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:66
+msgid "Standart three field form"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:67
+msgid "One-line payment form"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:68
+msgid "One-line credit card form"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:69
+msgid "Payment by credit card"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:70
+msgid "Save Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:71
+msgid "Save Installment Rates"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:72
+msgid "Test the connection"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:73
+msgid "Remove payment provider"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:74
+msgid "Merchant Panel"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:75
+msgid "Help Document"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:76
+msgid "Supported Features"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:77
+msgid "Supported Currencies"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:78
+msgid "You have not activated a pos yet"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:79
+msgid "To start receiving payments immediately, make the connection to the payment institution you are contracted with."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:80
+msgid "Method Name"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:81
+msgid "Payment Button Text"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:82
+msgid "Status of Successful Payments"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:83
+msgid "Description Field of Payment Form"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:84
+msgid "Soon"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:85
+msgid "Help"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:86
+msgid "Description"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:87
+msgid "Feedback"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:88
+msgid "Forum"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:89
+#: views/emails/success.php:64
+msgid "Transaction Details"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:90
+msgid "Request"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:91
+msgid "Response"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:93
+msgid "Copy"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:94
+msgid "Copied"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:96
+msgid "Platform"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:98
+msgid "Details"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:99
+msgid "There are no logs."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:100
+#: languages/gpos-settings-texts.php:405
+msgid "Rate"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:101
+msgid "Search Payment Institution"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:102
+msgid "Default"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:103
+msgid "Make Default"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:104
+msgid "All Features"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:105
+msgid "Loading..."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:107
+msgid "Check out the pro version for many pos and more available in Pro"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:108
+msgid "Review Now"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:109
+msgid "Installment Table View Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:110
+msgid "Table View"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:111
+msgid "It shows your installment options in the form of a table in the payment form."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:112
+msgid "Row View"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:113
+msgid "It shows your installment options in more detail in the form of rows in the payment form."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:114
+msgid "Select Box View"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:115
+msgid "It shows your installment options in the payment form in more detail with a drop-down menu view."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:116
+msgid "Box View"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:117
+msgid "It shows your installment options in the payment form in more detail with a box view."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:118
+msgid "Show Warning for Categories Not for Sale in Installments."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:119
+msgid "You can show a warning text to your customers on the checkout page for your categories that are not available for sale in installments. (WooCommerce only)"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:120
+msgid "Warning Text"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:121
+msgid "Enter Description"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:122
+msgid "Gurmehub Forum"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:123
+msgid "Share your questions about Shopify, WooCommerce, Dokan and many other platforms with us and the community through the Gurmehub Forum."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:124
+msgid "Gurmehub Feedback"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:125
+msgid "Your suggestions are very valuable to us so that our applications can work better. You can support us to improve our products by giving feedback."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:126
+msgid "Give Feedback"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:127
+msgid "Before using our POS Entegratör application, you can use the application much more efficiently by examining our documents."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:129
+msgid "Transaction Logs"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:130
+msgid "On this table, you can view in detail every transaction that goes through your payment gateway."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:131
+msgid "Logs"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:132
+msgid "Deletion completed"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:134
+msgid "Back To"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:135
+msgid "You can access the Institution/Company ID information from the top menu of your Paratika panel, under My Information > Basic Settings."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:137
+msgid "Activate Installment Sale"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:138
+msgid "You can automatically bring your installment rates by making your installment settings from the virtual POS panel."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:139
+msgid "Get Installment Rates"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:141
+msgid "Your Method Name"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:142
+msgid "Icon"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:143
+msgid "Automatic Installment Active POS"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:144
+msgid "Form Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:145
+msgid "All Transactions"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:146
+#: languages/gpos-settings-texts.php:240
+msgid "First Name"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:147
+#: languages/gpos-settings-texts.php:241
+msgid "Last Name"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:148
+msgid "Id"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:154
+msgid "Zip Code"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:157
+msgid "Created Date"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:158
+msgid "Type"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:159
+msgid "Process"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:160
+msgid "Record not found"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:162
+msgid "Transaction #{0} details"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:163
+msgid "Timeline"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:166
+msgid "Redirected To Payment Page"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:167
+msgid "Started"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:168
+msgid "Payment Id"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:170
+msgid "Virtual POS"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:172
+msgid "Plugin Trans. Id"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:173
+msgid "Customer"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:174
+msgid "Card Info"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:180
+msgid "Card Country"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:186
+msgid "Auth, Login, Token etc."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:187
+msgid "Regular Process"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:188
+msgid "3D Start"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:189
+msgid "Redirect To Payment Page"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:190
+msgid "Common Form Start"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:191
+msgid "iFrame Form Start"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:192
+msgid "Alternative Payment Start"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:193
+msgid "Callback"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:194
+msgid "Finish"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:195
+msgid "Notify"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:196
+msgid "Status Check"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:197
+msgid "Refund Total Amount"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:198
+msgid "Payment Transactions"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:199
+msgid "Product Name"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:200
+msgid "Refundable"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:201
+msgid "Cancel / Refund Status"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:202
+msgid "Action"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:203
+msgid "Refund It"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:204
+#: languages/gpos-settings-texts.php:213
+msgid "Not Refunded"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:205
+#: languages/gpos-settings-texts.php:214
+msgid "Refunded"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:206
+#: languages/gpos-settings-texts.php:215
+msgid "Partial Refunded"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:207
+msgid "Are you sure you want to refund the full <strong>{0} {1}</strong> payment?"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:208
+msgid "Note: If 1 day has not passed from the date of the transaction, the cancellation will be made, otherwise the refund will be made."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:210
+msgid "Process Cancel"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:211
+msgid "Process Refund"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:212
+msgid "Cancelled"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:216
+msgid "You can refund part of the <strong>{0} {1}</strong> payment by entering the amount you want to refund."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:217
+msgid "Payment Transaction Id"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:218
+msgid "General Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:219
+msgid "Integration Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:220
+msgid "Payment Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:221
+#: languages/gpos-settings-texts.php:436
+msgid "Installment Rules"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:222
+msgid "Card Saving"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:223
+msgid "Documents"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:224
+msgid "Other"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:225
+#: views/wc-gateway-disabled.php:17
+msgid "Activate"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:226
+msgid "Your users with the Card Save feature, they can save their cards during payment. (If default payment gateway supports save card)"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:227
+msgid "Save Step"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:228
+msgid "At payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:229
+msgid "Users can register their cards at payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:230
+msgid "After payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:231
+msgid "After users complete their payment, they can save card"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:232
+msgid "Short Code"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:235
+msgid "Export tool for sharing plugin environment with developers."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:236
+msgid "With the help of the shortcode, you can create a page where your customers can view and remove their saved cards., they can save card"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:237
+msgid "Form"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:238
+msgid "If there are no personal information fields in the donation form, the contact information here will be used."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:239
+msgid "Default Donator"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:247
+msgid "Zipcode"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:249
+#: views/vue-app-div.php:45
+msgid "Year"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:252
+msgid "Reset Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:253
+msgid "Support Settings"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:254
+msgid "When this setting is activated, users can cahange their payment method from My Account -> My Subscriptions."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:255
+msgid "When this setting is activated, users can cancel their subscriptions from My Account -> My Subscriptions."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:256
+msgid "If there is a basket subscription product, you can write a note if you want to inform the customer that their card will be registered automatically."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:257
+msgid "Note"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:258
+msgid "Using iframe for 3D forms and Common payment forms"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:259
+msgid "Important! This feature is still in beta phase. Please do not open it to your customers without testing it. Your feedback is important for our development process."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:260
+msgid "Card Name Field"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:261
+msgid "Use default name"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:262
+msgid "Sample: Saved card with ending 0000"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:263
+msgid "Use field"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:264
+msgid "Users can write name for card"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:265
+msgid "Order"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:266
+msgid "Search"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:267
+msgid "Select"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:268
+msgid "Select the category you want to set rules for"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:269
+msgid "Disable inst."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:270
+msgid "Apply"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:271
+msgid "Category"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:272
+msgid "No rules found..."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:273
+msgid "No rates found..."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:274
+msgid "Remove"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:275
+msgid "Expiry Field Style"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:276
+msgid "Select Box"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:277
+msgid "Text Box"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:278
+msgid "Transaction not found."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:279
+msgid "Completed Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:280
+msgid "Failed Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:281
+msgid "Completed Refund"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:282
+msgid "Failed Refund"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:283
+msgid "Using Gate, you can collect the transaction by directing it to the desired virtual POS according to the card brand, number of installments and card number. After your customer keys in the card information, the withdrawal is made to the relevant virtual pos, according to the criteria you define in the system."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:284
+msgid "*For payments that are not included in any rules, your default virtual POS will be charged."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:285
+msgid "Add New Rule"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:286
+msgid "Priority"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:287
+msgid "Rule"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:288
+msgid "Condition"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:289
+msgid "Card bank in list"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:290
+msgid "Total bigger than"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:291
+msgid "Total smaller"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:292
+msgid "Installment bigger than"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:293
+msgid "Installment smaller"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:294
+msgid "Card country in list"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:295
+msgid "Card country not in list"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:296
+msgid "Move"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:297
+msgid "New"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:299
+msgid "Selected"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:300
+msgid "Select Bank"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:301
+msgid "Are you having problems with your installment settings? try Reset the settings button"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:303
+msgid "Last 10 Transactions"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:305
+msgid "ID"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:306
+msgid "Empower your POS Entegratör with PRO and Business solutions."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:307
+msgid "By installing POS Entegratör upgrades on your site, you can make your site fully equipped with payment receiving solutions."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:308
+msgid "More than 50 banks and payment institutions"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:309
+msgid "GiveWP integration"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:310
+msgid "WooCommerce Subscription integration"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:311
+msgid "Easy Digital Downloads integration"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:312
+msgid "LearnPress integration"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:313
+msgid "Installment disabling specific to category"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:316
+msgid "All PRO features"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:317
+msgid "Elementor integration"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:318
+msgid "WPForms integration"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:319
+msgid "NinjaForms integration"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:320
+msgid "Receive payments without needing any plugins"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:321
+msgid "Support Ticket"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:322
+msgid "Do you need support? Create a new support ticket"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:323
+#: views/emails/transaction-info.php:90
+msgid "Upgrade Now"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:324
+msgid "Follow us"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:325
+msgid "Support"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:326
+msgid "By turning on this setting, you can enable Google tag manager submissions for payment transactions."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:327
+msgid "Enter your code as GTM-XXXXX here."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:329
+msgid "For e-commerce transactions, you can only use plugins that deal with this task. Example: GTMKit, GA4WP. You can only use this section for refund transactions in the admin panel."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:330
+msgid "This event is triggered when a refund is made in the transactions section."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:331
+msgid "Monday"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:332
+msgid "Tuesday"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:333
+msgid "Wednesday"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:334
+msgid "Thursday"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:335
+msgid "Friday"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:336
+msgid "Saturday"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:337
+msgid "Sunday"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:338
+msgid "Notifications"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:339
+msgid "E-Mails"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:340
+msgid "Active Error Emails"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:341
+msgid "Send errors your users encounter in the payment form as an email notification. If you want to edit template copy \"emails/error.php\" in our plugin dir to your child theme and edit it."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:342
+msgid "Active Success Emails"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:343
+msgid "Send successful payments as an email notification. If you want to edit template copy \"emails/success.php\" in our plugin dir to your child theme and edit it."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:344
+msgid "Active Daily Emails"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:345
+msgid "Get daily transaction information by choosing your notification time and days"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:346
+msgid "Active Weekly Emails"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:347
+msgid "Get weekly transaction information by choosing your notification day and time"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:348
+msgid "Please write the e-mail addresses below where you want the notification to be sent."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:350
+msgid "Alternative Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:352
+msgid "Bank Transfer"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:353
+msgid "Shopping Credit"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:354
+msgid "Shopping Credits"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:355
+msgid "Add Payment Method"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:357
+msgid "Common Form Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:359
+msgid "iFrame Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:360
+msgid "Installment tabs only avaliable in PRO and upper versions"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:361
+msgid "Installment Tabs"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:362
+msgid "Tab Order Priority"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:363
+msgid "By entering the sequence value, you can specify in which field it will be placed in the tabs. Higher values move closer to the last part"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:364
+msgid "Multi Table View"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:365
+msgid "Single Table View"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:366
+msgid "Default payment method cannot be deleted"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:367
+msgid "In this view, a table is created for each card family and the installments are displayed one under the other."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:368
+msgid "This view shows the card family and installments in a single table"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:369
+msgid "All methods that enable you to receive payments without redirecting to an external site or page by creating credit/debit card fields on the page where the payment will be made are included in this tab. All card-based features such as Gate can be used with this type of pennies."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:370
+msgid "When payment is initiated, you are directed to the next page on the site and the credit/debit card form designed and submitted by the payment institution is used."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:371
+msgid "Once the payment is initiated, the user leaves your site and is directed to the provider's payment page. Payment is made by credit/debit card on this page designed and managed by the payment institution."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:372
+msgid "Once the payment is initiated, the user leaves your site and is directed to the provider's payment page. On this page designed and managed by the payment institution, payments are received through the methods supported by the institution."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:373
+msgid "Display Alert"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:374
+msgid "Don't Show Alerts"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:375
+msgid "Show alerts only using payment plugin (WooCommerce, GiveWP etc.)"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:377
+msgid "Show alerts as acceptable popup message"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:378
+msgid "Message"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:379
+msgid "Show alerts as message bottom of card form"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:380
+msgid "Print"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:382
+msgid "Language To Be Used At the Payment"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:383
+msgid "Auto Detect"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:384
+msgid "This feature can only work with {0} plugins"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:385
+msgid "Installment Tab Title"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:386
+msgid "Admin Bar Menu"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:387
+msgid "Add us to admin bar menu"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:388
+msgid "Hello Dear WordPress lovers."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:389
+msgid "I noticed that you have installed and experimented with POS Entegratör, that`s great! Please do us a favor and help us spread our plugin and increase our motivation. Can you give us 5 stars and write a comment on WordPress?"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:390
+msgid "Yes, you deserve it"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:391
+msgid "No, maybe later"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:392
+msgid "I already commented"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:393
+msgid "Founder"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:394
+msgid "Show Billing Fields"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:395
+msgid "If you do not activate this setting, please fill in the default payer fields."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:396
+msgid "Default Payer"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:397
+msgid "Default Payer Info"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:398
+msgid "You can fill in the fields that are not on your payment page but required by your payment gateway with this information."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:399
+msgid "Currency Converter"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:400
+msgid "Let us easily convert your site's currency to the currency you want to use in your payment gateway."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:401
+msgid "Automatic Convert"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:402
+msgid "Manual Convert"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:403
+msgid "Payment Currency"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:404
+msgid "Select the currency you want to use in the payment gateway. All currencies you add to the table will be converted to this unit along with their rates."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:406
+msgid "Convert Type"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:407
+msgid "Select Currencies"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:408
+msgid "Add"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:409
+msgid "Apply All"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:410
+msgid "To offer your users the option of installments according to their card types during payment, activate the number of installments and enter the maturity difference."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:411
+msgid "Plus installment will be presented to your users only visually. If there is a plus installment campaign between your payment institution and your company, it is recommended that you use this setting."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:423
+msgid "Video Tutorial"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:424
+msgid "Why am I getting errors?"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:425
+msgid "The reasons why your users receive errors during payment are the payment institution,payment page errors, problems with the card to be paid, etc. It could be for many reasons."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:426
+msgid "Details of these reasons and what you can do to minimize them You can find what you need in our detailed guide."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:427
+msgid "Click to go to the guide"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:429
+msgid "This description will be displayed before the table/tables"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:430
+msgid "Warning: In order for the installment table display to work error-free, it must be run on your payment page or with the price parameter."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:431
+msgid "Product category in list"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:432
+msgid "Cart Rules"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:433
+msgid "Customer Rules"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:434
+msgid "Card Rules"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:435
+msgid "Price Rules"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:437
+msgid "WooCommerce Rules"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:438
+msgid "Installment family in list"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:439
+msgid "Send Order Number to Payment Organisation"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:440
+msgid "Send the plugin id as order number to the payment organisation"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:441
+msgid "Payment ID Separator (Required)"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:442
+msgid "Using this feature you can define a separator for payment organisations/banks to be used to combine the plug-in number with the transaction number of the POS Integrator. The separator field can never be saved empty!"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:443
+msgid "This feature will allow you to send the payment organisation the order number generated by plugins like WooCommerce, LearnPress etc. According to the working rules of payment institutions and banks, we provide shipping by adding the separator into the number sent to avoid situations such as not being able to process more than once with the same order number. We recommend that you test this feature after switching it on."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:444
+msgid "Add the maturity difference to the order"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:445
+msgid "In installment transactions, the payment gateway adds the maturity difference as a fee to the order."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:446
+msgid "Google Sheet"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:447
+msgid "When this feature is activated, all transactions and transaction lines produced by the POS Integrator can be transferred to the desired Google Sheet file. This feature will be valid for transactions made after switching on."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:448
+msgid "Credentials"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:449
+msgid "You should open Sheet Api from Google console, add a new service account and authorise this user to the excel file to be used. Open the created json file in the text editor and paste it in this section"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:450
+msgid "File ID"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:451
+msgid "Sync Refund Transaction"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:452
+msgid "When this setting is turned on, cancellation/refund information is transferred to a different sheet in the excel table."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:453
+msgid "Action Logs"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:454
+msgid "Add New Line to Worksheet"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:455
+msgid "Send Webhook"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:456
+msgid "Add New Worksheet"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:457
+msgid "WebHook"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:458
+msgid "With Webhook, you can communicate all transactions that occur in POS Integrator with a different service. Zapier, your own web service etc."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:459
+msgid "Url"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:460
+msgid "Web url address where requests will be sent"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:461
+msgid "Cancellation refunds are sent on all payment transactions. HTTP POST call is made and it is tried 3 times until 200 status code is received on the other side."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:462
+msgid "Reinstalls the transaction tables used by the POS Integrator. Movement data on the right side of the transaction data is reset. It is recommended to use this tool with different DB versions."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:463
+msgid "Reinstall Database Tables"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:464
+msgid "Tools"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:465
+msgid "Hex Converter: You should use the converted key as 3D Key in POS Integrator and Garanti Bank Panel. 24 characters are randomly generated and you can change them if you want."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:466
+msgid "Convert to Hex"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:467
+msgid "Enter 24 characters"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:468
+msgid "Hex Code:"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:469
+msgid "Working Requirements"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:470
+msgid "Re-Check"
+msgstr ""
+
+#: languages/gpos-settings-texts.php:471
+msgid "In order to send notifications, please enter a valid email address for the notification settings you have activated."
+msgstr ""
+
+#: languages/gpos-settings-texts.php:472
+msgid "You can not seen refund actions because this transaction refund process managed by other plugin"
+msgstr ""
+
+#. translators: Plugin name
+#: views/cannot-update-notice.php:17
+msgid "Please complete the update of the <strong>%s</strong> plugin\\plugins first."
+msgstr ""
+
+#: views/emails/error.php:52
+msgid "Hello, we are sorry you received this email."
+msgstr ""
+
+#: views/emails/error.php:54
+msgid "A user encountered an error during the payment process. You can review the details in the table below. If there is something you need support for, don't hesitate to write to us."
+msgstr ""
+
+#: views/emails/error.php:64
+msgid "Error Details"
+msgstr ""
+
+#: views/emails/error.php:89
+msgid "Full Name"
+msgstr ""
+
+#: views/emails/error.php:113
+msgid "Error Message"
+msgstr ""
+
+#: views/emails/error.php:129
+#: views/emails/success.php:113
+msgid "Note: Only website admins see this email."
+msgstr ""
+
+#. translators: %1$s Start date, %2$s End date.
+#: views/emails/parts/date-range-info.php:20
+msgid "This data represents payment transactions between <strong>%1$s</strong> and <strong>%2$s</strong>"
+msgstr ""
+
+#. translators: %1$s Site name and link, %2$s Help link
+#: views/emails/parts/disable.php:15
+msgid "This email was prepared and forwarded by %1$s. To learn how to disable %2$s."
+msgstr ""
+
+#: views/emails/parts/disable.php:17
+msgid "click here"
+msgstr ""
+
+#: views/emails/parts/hello-title.php:15
+msgid "Hello"
+msgstr ""
+
+#. translators: %1$s Plugin name,  %2$s period (today or this week)
+#: views/emails/parts/hello-title.php:21
+msgid "We thought you might be interested, let's see how many transactions you received with %1$s %2$s."
+msgstr ""
+
+#: views/emails/parts/hello-title.php:23
+msgid "today"
+msgstr ""
+
+#: views/emails/parts/hello-title.php:23
+msgid "this week"
+msgstr ""
+
+#: views/emails/success.php:52
+msgid "Hello, A successful payment transaction was made through your site"
+msgstr ""
+
+#: views/emails/success.php:54
+msgid "One of your users has made a successful payment. You can view the details in the table below."
+msgstr ""
+
+#: views/emails/transaction-info.php:37
+msgid "Success Transactions"
+msgstr ""
+
+#: views/emails/transaction-info.php:50
+msgid "Failed Transactions"
+msgstr ""
+
+#: views/emails/transaction-info.php:71
+msgid "Need more information about your transactions?"
+msgstr ""
+
+#. translators: %s PRO Plugin name
+#: views/emails/transaction-info.php:81
+msgid "Upgrade to <strong>%1$s</strong>; Unlock advanced emails and more. 25+ Banks and payment institutions, card storage, category-based installment blocking and many more features are in <strong>%2$s</strong>."
+msgstr ""
+
+#: views/installments/multi.php:18
+msgid "Installment Price"
+msgstr ""
+
+#: views/pro-gateways-disabled.php:15
+msgid "Payment Methods Disabled"
+msgstr ""
+
+#: views/pro-gateways-disabled.php:16
+msgid "We have detected that the payment method/methods you are using are disabled, please check that your PRO version is enabled. If you are having problems after the update, try updating the PRO version manually."
+msgstr ""
+
+#: views/redirect-render.php:22
+msgid "Incorrect transaction, please refresh the payment page and try again."
+msgstr ""
+
+#: views/redirect-render.php:25
+msgid "Back to payment page"
+msgstr ""
+
+#: views/transaction-columns/security-type.php:21
+msgid "Three-D Secure"
+msgstr ""
+
+#: views/transaction-columns/security-type.php:21
+msgid "Regular"
+msgstr ""
+
+#: views/wc-gateway-disabled.php:15
+msgid "POS Entegratör is not active"
+msgstr ""
+
+#: views/wc-gateway-disabled.php:16
+msgid "In order to use the POS Entegratör, you must first activate it from WooCommerce > Settings > Payments."
+msgstr ""

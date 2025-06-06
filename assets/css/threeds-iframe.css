@@ -1,0 +1,52 @@
+.gpos-iframe-container {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+  opacity: 1 !important;
+  width: 40%;
+  height: 60%;
+}
+
+.gpos-iframe-overlay {
+  pointer-events: auto;
+  background: #000;
+  border-radius: inherit;
+  bottom: 0;
+  left: 0;
+  opacity: .32;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99998;
+}
+
+.gpos-iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.gpos-close-iframe {
+  width: 100%;
+  text-align: end;
+  padding: 15px;
+}
+
+.gpos-close-iframe span {
+  cursor: pointer;
+}
+
+.gpos-close-iframe span:hover {
+  color: #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+  .gpos-iframe-container {
+    width: 90% !important;
+  }
+}

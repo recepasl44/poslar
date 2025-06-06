@@ -1,0 +1,1 @@
+import{c as t,o,t as s}from"./vendor-3-7-79.js";import{_ as n}from"./_plugin-vue_export-helper-3-7-79.js";const r={},a={class:"bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-lg flex gap-1 items-center h-6 max-h-max"};function c(e,m){return o(),t("span",a,s(e.$t("soon")),1)}const i=n(r,[["render",c]]);export{i as S};

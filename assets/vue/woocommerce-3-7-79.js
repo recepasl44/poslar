@@ -1,0 +1,1 @@
+import{a as t}from"./ajax-3-7-79.js";import"./store-3-7-79.js";import"./vendor-3-7-79.js";jQuery(document.body).on("updated_checkout",async function(){window.gposDispatchAmount(await t.post("wc_get_cart_total"))});
