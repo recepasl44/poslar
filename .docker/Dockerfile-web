@@ -1,0 +1,19 @@
+# Use image which contains apache with php
+FROM php:7.4.33-apache
+
+RUN apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
+
+# Install packages needed to install php extensions
+RUN apt-get install zlib1g-dev libxml2-dev libzip-dev zip unzip -y
+
+# Install PHP extensions
+RUN docker-php-ext-install zip
+RUN docker-php-ext-install soap
+
+# Install XDEBUG
+RUN pecl install xdebug-3.1.0 && docker-php-ext-enable xdebug
+
+# Install composer command
+RUN curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
+
+WORKDIR /var/www

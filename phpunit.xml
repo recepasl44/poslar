@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        bootstrap="vendor/autoload.php"
+        backupGlobals="false"
+        backupStaticAttributes="false"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        processIsolation="false"
+        cacheResultFile="./var/.phpunit.result.cache"
+        stopOnFailure="false">
+
+    <testsuites>
+        <testsuite name="unit">
+            <directory>tests/Unit</directory>
+        </testsuite>
+        <testsuite name="functional">
+            <directory>tests/Functional</directory>
+        </testsuite>
+    </testsuites>
+
+    <coverage cacheDirectory="var/coverage-cache"
+              includeUncoveredFiles="true"
+              processUncoveredFiles="true"
+              pathCoverage="false"
+              ignoreDeprecatedCodeUnits="true"
+              disableCodeCoverageIgnore="true">
+        <report>
+            <html outputDirectory="var/coverage-report-html"/>
+            <xml outputDirectory="var/coverage-report-xml"/>
+            <text outputFile="php://stdout" showOnlySummary="true"/>
+        </report>
+        <include>
+            <directory>src</directory>
+        </include>
+    </coverage>
+</phpunit>

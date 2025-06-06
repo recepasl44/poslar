@@ -1,0 +1,27 @@
+name: Unit Tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        php: ['7.4', '8.0']
+        dependency-version: [prefer-stable]
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: composer install --no-progress --no-suggest
+
+      - name: PHPStan
+        run: composer phpstan
+
+      - name: CS check
+        run: composer cs-check
+
+      - name: Run test suite
+        run: composer test
